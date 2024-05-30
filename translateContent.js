@@ -12,14 +12,10 @@ function toggleLanguageAndStorePref() {
   updateTexts(); // Update the UI to reflect the new language
   toggleAriaPressed(document.getElementById("toggleLanguage"));
   announceLanguageChange(); // Announce the language change
+
 }
 
-function announceLanguageChange() {
-  const ariaLiveRegion = document.getElementById("aria-live-region");
-  if (ariaLiveRegion) {
-    ariaLiveRegion.textContent = `Language changed to ${lang === "EN" ? "English" : "French"}`;
-  }
-}
+
 
 function updateTexts() {
   // Example function calls that would need to be updated to support dynamic language change
@@ -28,14 +24,11 @@ function updateTexts() {
   adjustFontSize("play-button-text-container");
   changeEachLangDiv(); // Update all dynamic strings to the current language
 
-
   if (lang === "FR") {
     const playButtonTextContainer = document.getElementById("play-button-text-container");
     playButtonTextContainer.style.left = "40%";
     adjustFontSize("play-button-text-container");
   }
-  announceCurrentLanguage(); // Announce the current language
-
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -140,6 +133,7 @@ function adjustFontSize(elementId) {
 }
 
 
+
 function announceCurrentLanguage() {
   const ariaLiveRegion = document.getElementById("statusMessage");
   if (ariaLiveRegion) {
@@ -153,4 +147,3 @@ function announceLanguageChange() {
     ariaLiveRegion.textContent = lang === "EN" ? "Language changed to English" : "Langue changée en français";
   }
 }
-
