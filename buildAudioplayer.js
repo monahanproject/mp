@@ -238,8 +238,7 @@ export class SimpleAudioPlayer {
   handlePlay() {
     let toggleLanguageBtn = document.getElementById("toggleLanguage");
     if (toggleLanguageBtn) {
-      toggleLanguageBtn.classList.add("hidden");
-
+      // toggleLanguageBtn.classList.add("hidden");
     }
 
 
