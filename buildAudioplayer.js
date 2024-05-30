@@ -236,6 +236,13 @@ export class SimpleAudioPlayer {
   }
 
   handlePlay() {
+    let toggleLanguageBtn = document.getElementById("toggleLanguage");
+    if (toggleLanguageBtn) {
+      toggleLanguageBtn.classList.add("hidden");
+
+    }
+
+
     updateAriaStatusMessage("Starting playback");
     this.isPlaying = true;
     this.toggleButtonVisuals(true);

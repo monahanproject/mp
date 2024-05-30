@@ -846,6 +846,7 @@ li {
 @media screen and (min-width: 900px) {
   #ffrw-button-container {
     justify-content: center;
+    margin-bottom: 2rem;
   }
 
   .skip-button {
@@ -854,7 +855,8 @@ li {
 
   .skip-button span {
     width: 5vw;
-    padding-top: calc(1.2 * 10vw);
+    padding-top: calc(1 * 6vw);
+    position: relative;
   }
 
   #skipBackwardButton {
@@ -878,6 +880,11 @@ li {
   margin: 5vh;
   transform-origin: center;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease, left 0.3s ease;
+}
+
+#play-button:focus {
+  outline: 0 dashed var(--focusgreen);
+  outline-offset: 2px;
 }
 
 #play-button:hover {
@@ -2022,10 +2029,10 @@ article > p {
   outline-offset: 2px;
 }
 
-body:not(.show-focus-outlines) button:focus,
+/* body:not(.show-focus-outlines) button:focus,
 body:not(.show-focus-outlines) [tabindex]:focus {
   outline: none;
-}
+} */
 
 #statusMessage {
   position: absolute;
