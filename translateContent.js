@@ -142,7 +142,7 @@ function announceCurrentLanguage() {
 }
 
 function announceLanguageChange() {
-  const ariaLiveRegion = document.getElementById("astatusMessage");
+  const ariaLiveRegion = document.getElementById("statusMessage");
   if (ariaLiveRegion) {
     ariaLiveRegion.textContent = lang === "EN" ? "Language changed to English" : "Langue changée en français";
   }
