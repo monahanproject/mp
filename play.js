@@ -1,11 +1,11 @@
 import { SimpleAudioPlayer } from "./buildAudioplayer.js";
 import { gatherTheCreditSongs } from "./gatherCredits.js";
-import { checkPlaylistRules } from "./checkRules.js";
 import { shuffleTracklist } from "./shuffleTracklist.js";
 import { printEntireTracklistDebug } from "./debug.js";
 import { followTracklistRules } from "./playlistBuilder.js";
 import { outroAudioSounds, finalOutroAudioSounds } from "./outroAudio.js";
-import { isValidTracklist } from "./checkEachTrackForValidity.js";
+// import { checkPlaylistRules } from "./checkRules.js";
+// import { isValidTracklist } from "./checkEachTrackForValidity.js";
 
 // Global variables to hold the curated tracklist and its total time
 export let curatedTracklist;

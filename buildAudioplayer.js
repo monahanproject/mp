@@ -2,68 +2,76 @@ import { curatedTracklist, initializeApp } from "./play.js";
 import { getState, setState, getLangState, setLangState, updateAriaStatusMessage } from "./state.js";
 import { Transcript } from "./transcriptMaker.js";
 
+const THEME_INVERTED_KEY = "themeInverted";
+const DEFAULT_LANG = "EN";
+const DEFAULT_VOLUME = 75;
+const VOLUME_MAX = 100;
+const VOLUME_MIN = 0;
+const SKIP_FORWARD_SECONDS = 20;
+const SKIP_BACKWARD_SECONDS = 15;
+const SKIP_BACKWARD_THRESHOLD = 16;
+const PROGRESS_UPDATE_INTERVAL = 1000;
+const CHECK_SKIP_BACKWARD_INTERVAL = 15; // in seconds
+
 // Initialize theme inversion state from localStorage
-let isInverted = getState(); 
+let isInverted = getState();
 
 // If the themeInverted key doesn't exist in localStorage, initialize it to false
-if (localStorage.getItem("themeInverted") === null) {
-  localStorage.setItem("themeInverted", "false");
+if (localStorage.getItem(THEME_INVERTED_KEY) === null) {
+  localStorage.setItem(THEME_INVERTED_KEY, "false");
 }
 
-// Simple Audio Player class
 export class SimpleAudioPlayer {
   constructor(tracklist) {
     this.tracklist = tracklist;
     this.currentIndex = 0;
-    this.globalAudioElement = document.createElement("audio");
+    this.globalAudioElement = new Audio();
     this.isPlaying = false;
     this.firstPlayDone = false;
-
     this.totalPlaylistDuration = 0;
-    this.isUpdatingTime = false; 
+    this.isUpdatingTime = false;
     this.timerDuration = 0;
     this.remainingTime = 0;
     this.allowProgressUpdate = true;
-
     this.transcript = new Transcript(this);
-    this.lang = localStorage.getItem("lang") || "EN";
+    this.lang = localStorage.getItem("lang") || DEFAULT_LANG;
 
-    this.beginAgain = `<img id="begin-again" class="svg-icon" src="images/svg/beginAgain.svg" alt="Begin again">`;
-    this.beginAgainInvert = `<img id="begin-again" class="svg-icon" src="images/svg/beginAgainInvert.svg" alt="Begin again">`;
-
-    this.skipBackwardButton = document.getElementById("skipBackwardButton");
-    this.skipForwardButton = document.getElementById("skipForwardButton");
-    this.skipBackwardsImpossible = true;
-
-    this.lowerVolumeBtn = document.getElementById("lower-vol");
-    this.raiseVolumeBtn = document.getElementById("raise-vol");
-
-
-    this.playButton = document.getElementById("play-button");
-
-    this.playingSVG = `<img id="play-icon" class="svg-icon" src="images/svg/playButton.svg" alt="Play Icon">`;
-    this.playingInvertedSVG = `<img id="play-icon" class="svg-icon" src="images/svg/playButtonInvert.svg" alt="Play Icon">`;
-
-    this.pausedSVG = `<img id="play-icon" class="svg-icon" src="images/svg/pauseButton.svg" alt="Pause Icon">`;
-    this.pausedInvertedSVG = `<img id="play-icon" class="svg-icon" src="images/svg/pauseButtonInvert.svg" alt="Pause Icon">`;
-
-    this.playlistEnded = false; // Track whether the current playlist has ended
-
-    this.createTimerLoopAndUpdateProgressTimer();
+    this.initializeElements();
+    this.initializeSVGIcons();
     this.setupInitialUserInteraction();
     this.createVolumeSlider();
     this.calcTotalPlaylistDuration();
     this.calcTotalPlaylistRemainingTime();
 
-    this.globalAudioElement.onplay = () => this.handlePlay();
-    this.globalAudioElement.onpause = () => this.handlePause();
-    this.globalAudioElement.onended = () => this.handleEnded();
+    this.globalAudioElement.onplay = this.handlePlay.bind(this);
+    this.globalAudioElement.onpause = this.handlePause.bind(this);
+    this.globalAudioElement.onended = this.handleEnded.bind(this);
+
+    this.createTimerLoopAndUpdateProgressTimer();
   }
 
-  // Toggle aria-pressed attribute
+  initializeElements() {
+    this.skipBackwardButton = document.getElementById("skipBackwardButton");
+    this.skipForwardButton = document.getElementById("skipForwardButton");
+    this.lowerVolumeBtn = document.getElementById("lower-vol");
+    this.raiseVolumeBtn = document.getElementById("raise-vol");
+    this.playButton = document.getElementById("play-button");
+    this.skipBackwardsImpossible = true;
+    this.playlistEnded = false;
+  }
+
+  initializeSVGIcons() {
+    this.beginAgain = `<img id="begin-again" class="svg-icon" src="images/svg/beginAgain.svg" alt="Begin again">`;
+    this.beginAgainInvert = `<img id="begin-again" class="svg-icon" src="images/svg/beginAgainInvert.svg" alt="Begin again">`;
+    this.playingSVG = `<img id="play-icon" class="svg-icon" src="images/svg/playButton.svg" alt="Play Icon">`;
+    this.playingInvertedSVG = `<img id="play-icon" class="svg-icon" src="images/svg/playButtonInvert.svg" alt="Play Icon">`;
+    this.pausedSVG = `<img id="play-icon" class="svg-icon" src="images/svg/pauseButton.svg" alt="Pause Icon">`;
+    this.pausedInvertedSVG = `<img id="play-icon" class="svg-icon" src="images/svg/pauseButtonInvert.svg" alt="Pause Icon">`;
+  }
+
   toggleAriaPressed(element) {
-    let isPressed = element.getAttribute('aria-pressed') === 'true';
-    element.setAttribute('aria-pressed', !isPressed);
+    const isPressed = element.getAttribute("aria-pressed") === "true";
+    element.setAttribute("aria-pressed", !isPressed);
   }
 
   calcTotalPlaylistDuration() {
@@ -79,7 +87,7 @@ export class SimpleAudioPlayer {
   updateProgressUI(elapsedSeconds, previousDuration) {
     if (this.playlistEnded) {
       const timeRemainingElement = document.getElementById("time-remaining");
-      timeRemainingElement.innerText = `00:00`;
+      timeRemainingElement.innerText = "00:00";
       return;
     }
 
@@ -102,8 +110,8 @@ export class SimpleAudioPlayer {
         timePlayedElement.innerText = `${playedTime.minutes}:${playedTime.seconds}`;
         timeRemainingElement.innerText = `-${remainingTime.minutes}:${remainingTime.seconds}`;
 
-        timePlayedElement.setAttribute('aria-hidden', 'true');
-        timeRemainingElement.setAttribute('aria-hidden', 'true');
+        timePlayedElement.setAttribute("aria-hidden", "true");
+        timeRemainingElement.setAttribute("aria-hidden", "true");
       } catch (error) {
         console.error("An error occurred in updateProgressUI:", error);
       }
@@ -122,21 +130,21 @@ export class SimpleAudioPlayer {
 
   createTimerLoopAndUpdateProgressTimer() {
     clearInterval(this.updateIntervalId);
-    var start = Date.now(); // Record the start time of the loop
+    const start = Date.now(); // Record the start time of the loop
     let checkCounter = 0; // Counter to track when to perform the skip backward check
 
     this.updateIntervalId = setInterval(() => {
-      let delta = Date.now() - start;
-      let deltaSeconds = Math.floor(delta / 1000);
+      const delta = Date.now() - start;
+      const deltaSeconds = Math.floor(delta / 1000);
       this.updateProgressUI(Math.floor(this.globalAudioElement.currentTime), this.timerDuration);
 
       checkCounter++;
-      if (checkCounter >= 15) {
+      if (checkCounter >= CHECK_SKIP_BACKWARD_INTERVAL) {
         // Perform the check every 15 seconds
         this.checkAndEnableSkipBackward();
         checkCounter = 0; // Reset counter after the check
       }
-    }, 1000);
+    }, PROGRESS_UPDATE_INTERVAL);
   }
 
   setupInitialUserInteraction() {
@@ -154,7 +162,6 @@ export class SimpleAudioPlayer {
         this.handleSkipForward();
         setTimeout(() => this.skipForwardButton.focus(), 0); // Add a small delay before focusing
       });
-
     }
     this.setupVolumeControlButtons();
   }
@@ -162,27 +169,25 @@ export class SimpleAudioPlayer {
   createVolumeSlider() {
     const volumeSlider = document.getElementById("volume-slider");
     if (volumeSlider && volumeSlider instanceof HTMLInputElement) {
-        volumeSlider.type = "range";
-        volumeSlider.max = "100";
-        volumeSlider.min = "0";
-        volumeSlider.value = "75"; // Set default volume
+      volumeSlider.type = "range";
+      volumeSlider.max = VOLUME_MAX.toString();
+      volumeSlider.min = VOLUME_MIN.toString();
+      volumeSlider.value = DEFAULT_VOLUME.toString(); // default volume
 
-        volumeSlider.addEventListener("input", (event) => {
-            this.handleVolumeChange(event);
-        });
+      volumeSlider.addEventListener("input", (event) => this.handleVolumeChange(event));
 
-        this.globalAudioElement.volume = parseFloat(volumeSlider.value) / 100;
-        this.updateVolumeIndicator(parseFloat(volumeSlider.value));
+      this.globalAudioElement.volume = parseFloat(volumeSlider.value) / VOLUME_MAX;
+      this.updateVolumeIndicator(parseFloat(volumeSlider.value));
     }
   }
 
   handleVolumeChange(event) {
     const volumeSlider = event.target;
     if (volumeSlider instanceof HTMLInputElement) {
-        const volumeLevel = parseFloat(volumeSlider.value) / 100;
-        this.globalAudioElement.volume = volumeLevel;
-        volumeSlider.setAttribute("aria-valuenow", volumeSlider.value);
-        this.updateVolumeIndicator(volumeLevel);
+      const volumeLevel = parseFloat(volumeSlider.value) / VOLUME_MAX;
+      this.globalAudioElement.volume = volumeLevel;
+      volumeSlider.setAttribute("aria-valuenow", volumeSlider.value);
+      this.updateVolumeIndicator(volumeLevel);
     }
   }
 
@@ -199,48 +204,44 @@ export class SimpleAudioPlayer {
     }
 
     if (volumeThinner) {
-      volumeThinner.style.width = `${100 - volumeLevel}%`;
-      volumeThinner.style.left = `${volumeLevel}%`;
+      volumeThinner.style.width = `${100 - volumeLevel * 100}%`;
+      volumeThinner.style.left = `${volumeLevel * 100}%`;
     }
   }
 
   setupVolumeControlButtons() {
-
     if (this.lowerVolumeBtn) {
       this.lowerVolumeBtn.addEventListener("click", () => {
-        this.globalAudioElement.volume = 0;
+        this.globalAudioElement.volume = VOLUME_MIN / 100;
         const volumeSlider = document.getElementById("volume-slider");
         if (volumeSlider && volumeSlider instanceof HTMLInputElement) {
-          volumeSlider.value = "0"; // Update the slider position
+          volumeSlider.value = VOLUME_MIN.toString(); // Update the slider position
         }
-        this.updateVolumeIndicator(0); // Update the UI to reflect the volume change
+        this.updateVolumeIndicator(VOLUME_MIN); // Update the UI to reflect the volume change
         this.toggleAriaPressed(this.lowerVolumeBtn); // Update aria-pressed
         setTimeout(() => this.lowerVolumeBtn.focus(), 0); // Add a small delay before focusing
       });
-
     }
 
     if (this.raiseVolumeBtn) {
       this.raiseVolumeBtn.addEventListener("click", () => {
-        this.globalAudioElement.volume = 1;
+        this.globalAudioElement.volume = VOLUME_MAX / 100;
         const volumeSlider = document.getElementById("volume-slider");
         if (volumeSlider && volumeSlider instanceof HTMLInputElement) {
-          volumeSlider.value = "100"; // Update the slider position
+          volumeSlider.value = VOLUME_MAX.toString(); // Update the slider position
         }
-        this.updateVolumeIndicator(100); // Update the UI to reflect the volume change
+        this.updateVolumeIndicator(VOLUME_MAX); // Update the UI to reflect the volume change
         this.toggleAriaPressed(this.raiseVolumeBtn); // Update aria-pressed
         setTimeout(() => this.raiseVolumeBtn.focus(), 0); // Add a small delay before focusing
       });
-
     }
   }
 
   handlePlay() {
-    let toggleLanguageBtn = document.getElementById("toggleLanguage");
+    const toggleLanguageBtn = document.getElementById("toggleLanguage");
     if (toggleLanguageBtn) {
       // toggleLanguageBtn.classList.add("hidden");
     }
-
 
     updateAriaStatusMessage("Starting playback");
     this.isPlaying = true;
@@ -267,32 +268,26 @@ export class SimpleAudioPlayer {
 
     const existingOverlay = document.getElementById("play-button");
     existingOverlay.style.position = "relative";
-    
+
     let overlaySvgElement = existingOverlay.querySelector(".overlay-svg");
     if (!overlaySvgElement) {
       overlaySvgElement = document.createElement("div");
       overlaySvgElement.className = "overlay-svg";
-      overlaySvgElement.style.position = "absolute"; 
-      overlaySvgElement.style.top = "25%"; 
+      overlaySvgElement.style.position = "absolute";
+      overlaySvgElement.style.top = "25%";
       overlaySvgElement.style.left = "10%";
-      overlaySvgElement.style.width = "50%"; 
+      overlaySvgElement.style.width = "50%";
       overlaySvgElement.style.height = "50%";
-      overlaySvgElement.style.zIndex = "10"; 
+      overlaySvgElement.style.zIndex = "10";
       existingOverlay.appendChild(overlaySvgElement);
 
-      let isThemeInverted = getState();
-      if (!isThemeInverted) {
-        console.log("theme not inverted");
-        overlaySvgElement.innerHTML = this.beginAgain;
-      } else {
-        console.log("theme inverted");
-        overlaySvgElement.innerHTML = this.beginAgainInvert;
-      }
+      const isThemeInverted = getState();
+      overlaySvgElement.innerHTML = isThemeInverted ? this.beginAgainInvert : this.beginAgain;
     }
 
     if (this.playButton) {
       this.playButton.onclick = () => {
-        localStorage.setItem("returnToSpot", "play-button"); 
+        localStorage.setItem("returnToSpot", "play-button");
         window.location.reload();
       };
     }
@@ -305,14 +300,14 @@ export class SimpleAudioPlayer {
     const timePlayedElement = document.getElementById("time-played");
     const timeRemainingElement = document.getElementById("time-remaining");
 
-    timePlayedElement.setAttribute('aria-hidden', 'true');
-    timeRemainingElement.setAttribute('aria-hidden', 'true');
+    timePlayedElement.setAttribute("aria-hidden", "true");
+    timeRemainingElement.setAttribute("aria-hidden", "true");
 
     if (progressBar && progressDot && timePlayedElement && timeRemainingElement) {
       progressBar.style.width = "0%";
       progressDot.style.left = "0%";
       timePlayedElement.innerText = "00:00";
-      timeRemainingElement.innerText = "00:00"; 
+      timeRemainingElement.innerText = "00:00";
     }
   }
 
@@ -332,10 +327,9 @@ export class SimpleAudioPlayer {
       return;
     }
     this.updateUIForSkip("forward");
-    this.calculateAndAdjustTime(20, "forward");
+    this.calculateAndAdjustTime(SKIP_FORWARD_SECONDS, "forward");
     this.toggleAriaPressed(this.skipForwardButton);
     // this.skipForwardButton.focus();
-
   }
 
   handleSkipBackward() {
@@ -345,14 +339,13 @@ export class SimpleAudioPlayer {
       return;
     }
     this.updateUIForSkip("backward");
-    this.calculateAndAdjustTime(-15, "backward");
+    this.calculateAndAdjustTime(-SKIP_BACKWARD_SECONDS, "backward");
     this.toggleAriaPressed(this.skipBackwardButton);
     // this.skipBackwardButton.focus();
-
   }
 
   isSkipForwardAllowed() {
-    if (this.remainingTime <= 80) {
+    if (this.remainingTime <= SKIP_FORWARD_SECONDS * 4) {
       console.log("Skip forward blocked: Not enough remaining time.");
       updateAriaStatusMessage("Can't skip forwards, we're near the end of the playlist");
       return false;
@@ -361,7 +354,7 @@ export class SimpleAudioPlayer {
   }
 
   isSkipBackwardAllowed() {
-    if (this.globalAudioElement.currentTime < 16) {
+    if (this.globalAudioElement.currentTime < SKIP_BACKWARD_THRESHOLD) {
       updateAriaStatusMessage("Can't skip backwards, have reached the beginning of this track");
       return false;
     }
@@ -370,11 +363,11 @@ export class SimpleAudioPlayer {
 
   calculateAndAdjustTime(timeChange, direction) {
     if (this.isUpdatingTime) {
-        console.log(`Skip ${direction} is currently updating, request ignored.`);
-        return;
+      console.log(`Skip ${direction} is currently updating, request ignored.`);
+      return;
     }
     this.isUpdatingTime = true;
-    const disableDuration = 10;  
+    const disableDuration = 10;
 
     const targetButton = direction === "forward" ? this.skipForwardButton : this.skipBackwardButton;
     targetButton.classList.add("disabled-button");
@@ -385,9 +378,9 @@ export class SimpleAudioPlayer {
 
     this.globalAudioElement.currentTime = newPlayerTime;
     setTimeout(() => {
-        this.checkIfTimeUpdated(initialTime);
-        targetButton.classList.remove("disabled-button");
-        this.isUpdatingTime = false;
+      this.checkIfTimeUpdated(initialTime);
+      targetButton.classList.remove("disabled-button");
+      this.isUpdatingTime = false;
     }, disableDuration);
   }
 
@@ -407,7 +400,7 @@ export class SimpleAudioPlayer {
   }
 
   checkAndEnableSkipBackward() {
-    if (this.globalAudioElement.currentTime > 16) {
+    if (this.globalAudioElement.currentTime > SKIP_BACKWARD_THRESHOLD) {
       this.skipBackwardButton.style.opacity = "1.0";
       this.skipBackwardsImpossible = false;
     }
@@ -446,7 +439,6 @@ export class SimpleAudioPlayer {
         .play()
         .then(() => {
           this.isPlaying = true;
-          // this.playButton.focus();
 
           if (index + 1 < this.tracklist.length) {
             const nextTrack = this.tracklist[index + 1];
@@ -489,33 +481,20 @@ export class SimpleAudioPlayer {
   }
 
   toggleButtonVisuals(isPlaying) {
-    let isThemeInverted = getState(); // This will initialize isInverted based on localStorage
-    const svgIcon = document.querySelector("#play-button-svg-container .svg-icon");
-    const playButtonTextContainer = document.getElementById("play-button-text-container");
+    const isThemeInverted = getState(); // This will initialize isInverted based on localStorage
     const svgContainer = document.getElementById("play-button-svg-container");
+    const playButtonTextContainer = document.getElementById("play-button-text-container");
+    const svgToUse = isPlaying
+      ? isThemeInverted ? this.pausedInvertedSVG : this.pausedSVG
+      : isThemeInverted ? this.playingInvertedSVG : this.playingSVG;
 
-    let currLang = localStorage.getItem("lang");
-    if (!currLang) {
-      console.log(currLang);
-      currLang = "EN"; // Set to "EN" if not already set
-    }
-
-    let svgToUse;
-    if (isPlaying) {
-      svgToUse = isThemeInverted ? this.pausedInvertedSVG : this.pausedSVG;
-    } else {
-      svgToUse = isThemeInverted ? this.playingInvertedSVG : this.playingSVG;
-    }
+    const currLang = localStorage.getItem("lang") || DEFAULT_LANG;
 
     if (isPlaying) {
       if (!this.playButton.classList.contains("playing")) {
         playButtonTextContainer.style.left = "50%";
-        svgContainer.innerHTML = svgToUse; 
-        if (currLang === "EN") {
-          playButtonTextContainer.textContent = "STOP";
-        } else {
-          playButtonTextContainer.textContent = "ARRÊTER";
-        }
+        svgContainer.innerHTML = svgToUse;
+        playButtonTextContainer.textContent = currLang === "EN" ? "STOP" : "ARRÊTER";
       }
     } else {
       if (!this.playButton.classList.contains("paused")) {
@@ -523,13 +502,8 @@ export class SimpleAudioPlayer {
           // we're in a begin state
         } else {
           playButtonTextContainer.style.left = "35%";
-          svgContainer.innerHTML = svgToUse; 
-          if (currLang === "EN") {
-            playButtonTextContainer.textContent = "PLAY";
-          } else {
-            playButtonTextContainer.style.left = "40%";
-            playButtonTextContainer.textContent = "COMMENCER";
-          }
+          svgContainer.innerHTML = svgToUse;
+          playButtonTextContainer.textContent = currLang === "EN" ? "PLAY" : "COMMENCER";
         }
       }
     }
@@ -542,8 +516,8 @@ export class SimpleAudioPlayer {
 document.addEventListener("DOMContentLoaded", (event) => {
   const returnToSpot = localStorage.getItem("returnToSpot");
   if (returnToSpot === "play-button") {
-    const element = document.getElementById("play-button"); 
+    const element = document.getElementById("play-button");
     if (element) element.scrollIntoView();
-    localStorage.removeItem("returnToSpot"); 
+    localStorage.removeItem("returnToSpot");
   }
 });

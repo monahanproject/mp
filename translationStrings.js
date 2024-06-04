@@ -1021,3 +1021,19 @@ export const strings = [
     { id: "copyright", en: "©2024 All Rights Reserved", fr: "©2024 Tous droits réservés" },
     { id: "cityArtCollection", en: "City of Ottawa Art Collection", fr: "Collection d'art de la ville d'Ottawa" },
   ];
+
+  export const ariaStrings = [
+    { id: "toggleLanguage", en: "Toggle Language", fr: "Changer de langue" },
+    { id: "accessibilityNav", en: "Accessibility Settings", fr: "Paramètres d'accessibilité" },
+    { id: "invertColoursBtn", en: "Invert Colors", fr: "Inverser les couleurs" },
+    { id: "monochromeBtn", en: "Monochrome", fr: "Monochrome" },
+    { id: "decreaseTextSizeBtn", en: "Decrease text size", fr: "Diminuer la taille du texte" },
+    { id: "increaseTextSizeBtn", en: "Increase text size", fr: "Augmenter la taille du texte" },
+    { id: "resetBtn", en: "Reset", fr: "Réinitialiser" },
+    { id: "play-button", en: "Begin/Play Audio", fr: "Commencer/Lire l'audio" },
+    { id: "skipBackwardButton", en: "Skip backwards 15 seconds", fr: "Reculer de 15 secondes" },
+    { id: "skipForwardButton", en: "Skip forward 30 seconds", fr: "Avancer de 30 secondes" },
+    { id: "lower-vol", en: "Lower volume", fr: "Baisser le volume" },
+    { id: "raise-vol", en: "Raise volume", fr: "Augmenter le volume" },
+    { id: "volume-slider", en: "Volume slider", fr: "Curseur de volume" },
+  ];

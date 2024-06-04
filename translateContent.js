@@ -1,46 +1,41 @@
 import { getLangState, setLangState } from "./state.js";
-import { productionPageEN, productionPageFR, contributorsPageEN, contributorsPageFR, strings } from "./translationStrings.js";
+import { productionPageEN, productionPageFR, contributorsPageEN, contributorsPageFR, strings, ariaStrings } from "./translationStrings.js";
 import { toggleAriaPressed } from "./settingsmenu.js";
 
 let lang = localStorage.getItem("lang") || "EN"; // Retrieve initial language setting
-
 
 function toggleLanguageAndStorePref() {
   console.log("toggled lang");
   lang = getLangState() === "EN" ? "FR" : "EN"; // Toggle the language
   setLangState(lang); // Update language in localStorage
-  updateTexts(); // Update the UI to reflect the new language
+  updateTextsBasedOnStoredLang(); 
   toggleAriaPressed(document.getElementById("toggleLanguage"));
-  announceLanguageChange(); // Announce the language change
-
+  announceLangOrLangChange(); 
 }
 
-
-
-function updateTexts() {
-  // Example function calls that would need to be updated to support dynamic language change
+function updateTextsBasedOnStoredLang() {
   updateLanguageLabel();
   updatePageContent();
-  adjustFontSize("play-button-text-container");
-  changeEachLangDiv(); // Update all dynamic strings to the current language
+  adjustFontSizeBasedOnLang("play-button-text-container");
+  changeEachLangDiv(); 
+  changeAriaLabels(); 
 
   if (lang === "FR") {
     const playButtonTextContainer = document.getElementById("play-button-text-container");
     playButtonTextContainer.style.left = "40%";
-    adjustFontSize("play-button-text-container");
+    adjustFontSizeBasedOnLang("play-button-text-container");
   }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  updateTexts(); // Initialize texts based on the stored language
+  updateTextsBasedOnStoredLang(); 
   document.querySelector("#toggleLanguage").addEventListener("click", toggleLanguageAndStorePref);
-  announceLanguageChange(); // Announce the initial language
-
+  announceLangOrLangChange(); 
 });
 
 function updateLanguageLabel() {
   const langToggleButton = document.getElementById("langToggle");
-  if (langToggleButton instanceof HTMLImageElement) {
+  if (langToggleButton) {
     const newSrc = lang === "EN" ? "images/svg/FR.svg" : "images/svg/EN.svg";
     langToggleButton.src = `${newSrc}?${new Date().getTime()}`; // Prevent caching
   } else {
@@ -70,24 +65,34 @@ function changeEachLangDiv() {
   buttonStrings.forEach(changeEachBtnString);
 }
 
-// Update individual strings to the current language and adjust font sizes for specific elements
 function changeEachString(string) {
   const element = document.getElementById(string.id);
   if (element) {
     element.innerHTML = lang === "FR" ? string.fr : string.en;
-    adjustFontSize(string.id); // Adjust font size based on language
+    adjustFontSizeBasedOnLang(string.id); 
   } else {
     console.error(`Element with ID '${string.id}' not found.`);
   }
 }
 
-// Update button strings to the current language
 function changeEachBtnString(string) {
   const element = document.querySelector("#" + string.id);
   if (element) {
     element.innerHTML = lang === "FR" ? string.fr : string.en;
   } else {
-    // console.error(`Button element with ID '${string.id}' not found.`);
+  }
+}
+
+function changeAriaLabels() {
+  ariaStrings.forEach(changeAriaLabel);
+}
+
+function changeAriaLabel(string) {
+  const element = document.getElementById(string.id);
+  if (element) {
+    element.setAttribute("aria-label", lang === "FR" ? string.fr : string.en);
+  } else {
+    console.error(`Element with ID '${string.id}' not found for aria-label update.`);
   }
 }
 
@@ -101,7 +106,7 @@ const buttonStrings = [
 
 const originalFontSizes = {};
 
-function adjustFontSize(elementId) {
+function adjustFontSizeBasedOnLang(elementId) {
   const sizeReductions = {
     curiousEarsTxt: 0.6,
   };
@@ -132,18 +137,16 @@ function adjustFontSize(elementId) {
   }
 }
 
-
-
 function announceCurrentLanguage() {
   const ariaLiveRegion = document.getElementById("statusMessage");
   if (ariaLiveRegion) {
-    ariaLiveRegion.textContent = lang === "EN" ? "The current language is English" : "La langue actuelle est le français";
+    ariaLiveRegion.textContent = lang === "EN" ? "The language is English" : "La langue est le français";
   }
 }
 
-function announceLanguageChange() {
+function announceLangOrLangChange() {
   const ariaLiveRegion = document.getElementById("statusMessage");
   if (ariaLiveRegion) {
-    ariaLiveRegion.textContent = lang === "EN" ? "Language changed to English" : "Langue changée en français";
+    ariaLiveRegion.textContent = lang === "EN" ? "Language is English" : "Langue en français";
   }
 }

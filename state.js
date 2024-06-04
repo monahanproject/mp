@@ -14,8 +14,8 @@ export function updateAriaStatusMessage(message) {
 }
 
 
-// Initialize a variable to hold the initial state of 'isInverted' directly.
-let initialState = false; // Default to false, as you're not loading from localStorage anymore.
+// Create a variable to hold the initial state of 'isInverted' amd default to false.
+let initialState = false; 
 
 // Define the 'state' object with a property 'isInverted' initialized to the value of 'initialState'.
 let state = {
@@ -26,7 +26,6 @@ let state = {
 export const getState = () => state.isInverted;
 
 // Define a function 'setState' to update the state of 'isInverted'.
-// This function now only updates the state object without interacting with localStorage.
 export const setState = (isInverted) => {
   state.isInverted = isInverted; // Update the state object with the new value.
 };
@@ -35,16 +34,16 @@ export const setState = (isInverted) => {
 // Initialize the language state based on localStorage or default to "EN"
 export let lang = localStorage.getItem("lang") || "EN";
 
-// Function to get the current language
+// Get the current language
 export function getLangState() {
   return lang;
 }
 
-// Function to set the current language and update localStorage
+// Set the current language and update localStorage
 export function setLangState(newLang) {
   lang = newLang;
   localStorage.setItem("lang", newLang);
 }
 
-// Export the language state directly (not necessary but can be useful if direct access is needed elsewhere)
+// Export the language state directly
 export default lang;
