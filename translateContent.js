@@ -10,15 +10,17 @@ function toggleLanguageAndStorePref() {
   setLangState(lang); // Update language in localStorage
   updateTextsBasedOnStoredLang(); 
   toggleAriaPressed(document.getElementById("toggleLanguage"));
-  announceLangOrLangChange(); 
+  changeAriaLabels(); // Update aria-label attributes based on new language
+  // announceLangOrLangChange(); 
 }
 
 function updateTextsBasedOnStoredLang() {
   updateLanguageLabel();
-  updatePageContent();
+  updateContributorsAndTeamTextForLang();
   adjustFontSizeBasedOnLang("play-button-text-container");
-  changeEachLangDiv(); 
-  changeAriaLabels(); 
+  updateAllButtonsAndStringsTxt(); 
+  changeAriaLabels();
+  updatePageLang(); // Update the lang attribute of the HTML tag
 
   if (lang === "FR") {
     const playButtonTextContainer = document.getElementById("play-button-text-container");
@@ -30,7 +32,8 @@ function updateTextsBasedOnStoredLang() {
 document.addEventListener("DOMContentLoaded", () => {
   updateTextsBasedOnStoredLang(); 
   document.querySelector("#toggleLanguage").addEventListener("click", toggleLanguageAndStorePref);
-  announceLangOrLangChange(); 
+  changeAriaLabels(); // Update aria-labels on initial load
+  // announceLangOrLangChange(); 
 });
 
 function updateLanguageLabel() {
@@ -43,7 +46,7 @@ function updateLanguageLabel() {
   }
 }
 
-function updatePageContent() {
+function updateContributorsAndTeamTextForLang() {
   const contributorsPage = document.getElementById("contributorsTeamPageInner");
   const productionPage = document.getElementById("productionTeamPageInner");
 
@@ -60,7 +63,7 @@ function updatePageContent() {
   }
 }
 
-function changeEachLangDiv() {
+function updateAllButtonsAndStringsTxt() {
   strings.forEach(changeEachString);
   buttonStrings.forEach(changeEachBtnString);
 }
@@ -94,6 +97,10 @@ function changeAriaLabel(string) {
   } else {
     console.error(`Element with ID '${string.id}' not found for aria-label update.`);
   }
+}
+
+function updatePageLang() {
+  document.documentElement.setAttribute("lang", lang === "EN" ? "en" : "fr");
 }
 
 const buttonStrings = [
@@ -137,16 +144,16 @@ function adjustFontSizeBasedOnLang(elementId) {
   }
 }
 
-function announceCurrentLanguage() {
-  const ariaLiveRegion = document.getElementById("statusMessage");
-  if (ariaLiveRegion) {
-    ariaLiveRegion.textContent = lang === "EN" ? "The language is English" : "La langue est le français";
-  }
-}
+// function announceCurrentLanguage() {
+//   const ariaLiveRegion = document.getElementById("statusMessage");
+//   if (ariaLiveRegion) {
+//     ariaLiveRegion.textContent = lang === "EN" ? "Toggle Language - English is selected" : "Basculer la langue - Le Français est sélectionné";
+//   }
+// }
 
-function announceLangOrLangChange() {
-  const ariaLiveRegion = document.getElementById("statusMessage");
-  if (ariaLiveRegion) {
-    ariaLiveRegion.textContent = lang === "EN" ? "Language is English" : "Langue en français";
-  }
-}
+// function announceLangOrLangChange() {
+//   const ariaLiveRegion = document.getElementById("statusMessage");
+//   if (ariaLiveRegion) {
+//     ariaLiveRegion.textContent = lang === "EN" ? "Toggle Language - English is selected" : "Basculer la langue - Le Français est sélectionné";
+//   }
+// }

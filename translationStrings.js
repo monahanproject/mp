@@ -96,7 +96,7 @@ export const productionPageFR = `
     <h3 class="summary-content">SARAH ABBOTT</span> <span class="role">Écologie et défense des droits des non-humains</span>
   </summary>
   <article>
-    <p>Dans ses recherches, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Sarah Abbott's website. Link opens in a new tab" href="https://sarahabbott.ca/">Sarah Abbott</a></span> cherche à comprendre et à présenter les relations sentientes et sensorielles des arbres, des plantes et des non-humains dans leur ensemble, dans des cadres comprenant l'ethnographie publique ou multi-espèce, les systèmes de connaissance autochtones, la théorie de l'émergence d'un point de vue ontologique, la science des plantes, la communication interespèces et la cinématographie ethnographique. Sarah est professeure agrégée à la Faculté de cinéma de l'Université de Regina dans les domaines de la production cinématographique, l'écologie sensible, la pratique ethnographique et le changement climatique. Elle a récemment obtenu un doctorat interdisciplinaire en sciences sociales à la Royal Roads University. Elle est titulaire d'une maîtrise en arts visuels de l'Université de Syracuse et d'un baccalauréat en études cinématographiques et en art dramatique de l'Université Queen's. Sarah a décroché une bourse d'études supérieures du Canada Vanier (2014-2017), le Prix du lieutenant-gouverneur de la Saskatchewan pour les arts et l'apprentissage (2012) ainsi que le Prix des arts et des affaires du maire de Regina pour l'innovation dans les arts (2009).</p>
+    <p>Dans ses recherches, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Sarah Abbott. Le lien s'ouvre dans un nouvel onglet" href="https://sarahabbott.ca/">Sarah Abbott</a></span> cherche à comprendre et à présenter les relations sentientes et sensorielles des arbres, des plantes et des non-humains dans leur ensemble, dans des cadres comprenant l'ethnographie publique ou multi-espèce, les systèmes de connaissance autochtones, la théorie de l'émergence d'un point de vue ontologique, la science des plantes, la communication interespèces et la cinématographie ethnographique. Sarah est professeure agrégée à la Faculté de cinéma de l'Université de Regina dans les domaines de la production cinématographique, l'écologie sensible, la pratique ethnographique et le changement climatique. Elle a récemment obtenu un doctorat interdisciplinaire en sciences sociales à la Royal Roads University. Elle est titulaire d'une maîtrise en arts visuels de l'Université de Syracuse et d'un baccalauréat en études cinématographiques et en art dramatique de l'Université Queen's. Sarah a décroché une bourse d'études supérieures du Canada Vanier (2014-2017), le Prix du lieutenant-gouverneur de la Saskatchewan pour les arts et l'apprentissage (2012) ainsi que le Prix des arts et des affaires du maire de Regina pour l'innovation dans les arts (2009).</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors2"></div>
@@ -105,7 +105,7 @@ export const productionPageFR = `
     <h3 class="summary-content">JORDAN BELL</span> <span class="role">ingénieur du son</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Jordan Bell's LinkedIn profile. Link opens in a new tab" href="https://www.linkedin.com/in/jordan-bell-98899811/?originalSubdomain=ca">Jordan Bell</a></span> est un concepteur sonore, un ingénieur du son et un monteur sonore pour films d'Ottawa. En plus de sa formation d'ingénieur du son chez Metalworks Studios à Mississauga, Jordan détient un diplôme après quatre ans d'études en sociologie à l'Université Carleton. Son travail dans le monde de l'audio couvre un large éventail : de l'enregistrement vocal à la postsynchronisation, en passant par le montage et le mixage de longs métrages et de films d'animation. Il travaille avec de nombreuses entreprises, toutes au sein du groupe Affinity Production, où il est ingénieur depuis plus d'une dizaine d'années. Lorsqu'il ne travaille pas dans le monde de la postproduction, Jordan est un musicien prolifique. Depuis plus de 20 ans, il travaille dans l'industrie de la musique; il écrit, enregistre et joue ses chansons et fait des tournées avec une multitude de groupes.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le profil LinkedIn de Jordan Bell. Le lien s'ouvre dans un nouvel onglet" href="https://www.linkedin.com/in/jordan-bell-98899811/?originalSubdomain=ca">Jordan Bell</a></span> est un concepteur sonore, un ingénieur du son et un monteur sonore pour films d'Ottawa. En plus de sa formation d'ingénieur du son chez Metalworks Studios à Mississauga, Jordan détient un diplôme après quatre ans d'études en sociologie à l'Université Carleton. Son travail dans le monde de l'audio couvre un large éventail : de l'enregistrement vocal à la postsynchronisation, en passant par le montage et le mixage de longs métrages et de films d'animation. Il travaille avec de nombreuses entreprises, toutes au sein du groupe Affinity Production, où il est ingénieur depuis plus d'une dizaine d'années. Lorsqu'il ne travaille pas dans le monde de la postproduction, Jordan est un musicien prolifique. Depuis plus de 20 ans, il travaille dans l'industrie de la musique; il écrit, enregistre et joue ses chansons et fait des tournées avec une multitude de groupes.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors2"></div>
@@ -114,7 +114,7 @@ export const productionPageFR = `
     <h3 class="summary-content">BRANDON EDWARDS</span> <span class="role">assistant à la recherche</span>
   </summary>
   <article>
-    <p><a target="_blank" rel="noopener noreferrer" aria-label="Visit Brandon Edwards' website. Link opens in a new tab" href="http://brandonedwards.ca/"><span class="bold">Brandon Edwards</span></a> est candidat au doctorat en biologie à l'Université Carleton d'Ottawa, en Ontario. Dans le cadre de sa thèse, il élabore des outils permettant à la communauté de la recherche de rassembler plusieurs types de données d'enquête sur les oiseaux dans un seul modèle statistique, ainsi que des techniques permettant de contrôler la capacité d'une personne à percevoir les oiseaux avec précision dans différents environnements, comme le bord de la route, la forêt, les prairies... Toute sa vie, Brandon a cultivé une grande passion pour la nature, qui se manifeste surtout dans la photographie. Sa passion pour les oiseaux lui a permis de découvrir de nombreux autres êtres vivants et non vivants qui composent cette planète. Dans ses projets, il amène sa curiosité et sa passion pour la nature.</p>
+    <p><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Brandon Edwards. Le lien s'ouvre dans un nouvel onglet" href="http://brandonedwards.ca/"><span class="bold">Brandon Edwards</span></a> est candidat au doctorat en biologie à l'Université Carleton d'Ottawa, en Ontario. Dans le cadre de sa thèse, il élabore des outils permettant à la communauté de la recherche de rassembler plusieurs types de données d'enquête sur les oiseaux dans un seul modèle statistique, ainsi que des techniques permettant de contrôler la capacité d'une personne à percevoir les oiseaux avec précision dans différents environnements, comme le bord de la route, la forêt, les prairies... Toute sa vie, Brandon a cultivé une grande passion pour la nature, qui se manifeste surtout dans la photographie. Sa passion pour les oiseaux lui a permis de découvrir de nombreux autres êtres vivants et non vivants qui composent cette planète. Dans ses projets, il amène sa curiosité et sa passion pour la nature.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors2"></div>
@@ -123,7 +123,7 @@ export const productionPageFR = `
     <h3 class="summary-content">RACHEL GRAY</span> <span class="role">collaboratrice de contenu</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Rachel Gray's website. Link opens in a new tab" href="https://rachelgray.art/">Rachel Gray</a></span> est une artiste interdisciplinaire canadienne basée dans le territoire algonquin (Ottawa). Sa dyslexie dans un monde peu adapté l'a amenée à explorer l'art comme un moyen de créer un langage personnalisé. Grâce au dessin, au spectacle, à l'installation et à la narration, elle tente de parler dans ces lieux que le langage laisse vides. Son travail a été exposé au niveau national et international. Rachel est également auteure, animatrice et illustratrice. Son roman graphique <span class="italic">Jess</span> a été adapté en une œuvre musicale sur une commande de Pacific Opera Victoria. Rachel est profondément liée à la communauté artistique des personnes handicapées; elle défend les pratiques artistiques accessibles, organise des expositions et travaille avec des organisations et des institutions universitaires pour exploiter l'art et la narration. Elle est membre fondatrice de Ghost Rooster, un collectif d'artistes handicapés, et ne cesse de chercher des occasions de collaborer et de rejoindre la communauté à travers l'art.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Rachel Gray. Le lien s'ouvre dans un nouvel onglet" href="https://rachelgray.art/">Rachel Gray</a></span> est une artiste interdisciplinaire canadienne basée dans le territoire algonquin (Ottawa). Sa dyslexie dans un monde peu adapté l'a amenée à explorer l'art comme un moyen de créer un langage personnalisé. Grâce au dessin, au spectacle, à l'installation et à la narration, elle tente de parler dans ces lieux que le langage laisse vides. Son travail a été exposé au niveau national et international. Rachel est également auteure, animatrice et illustratrice. Son roman graphique <span class="italic">Jess</span> a été adapté en une œuvre musicale sur une commande de Pacific Opera Victoria. Rachel est profondément liée à la communauté artistique des personnes handicapées; elle défend les pratiques artistiques accessibles, organise des expositions et travaille avec des organisations et des institutions universitaires pour exploiter l'art et la narration. Elle est membre fondatrice de Ghost Rooster, un collectif d'artistes handicapés, et ne cesse de chercher des occasions de collaborer et de rejoindre la communauté à travers l'art.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors2"></div>
@@ -132,7 +132,7 @@ export const productionPageFR = `
     <h3 class="summary-content">SIMON GUIBORD</span> <span class="role">concepteur graphique</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Simon Guibord's website. Link opens in a new tab" href="https://simonguibord.com/">Simon Guibord</a></span> est un concepteur graphique qui travaille dans les milieux culturels, universitaires et commerciaux. Il a collaboré avec la Galerie SAW, Artengine, la Galerie d'art d'Ottawa, DAÏMÔN, AXENÉO7, le magazine HB et des artistes de toute la région. Il se spécialise dans les publications et l'élaboration d'identités graphiques. Son travail se caractérise par une approche rationnelle et sensible, ainsi qu'un processus favorisant la recherche et l'expérimentation. Depuis 2015, il enseigne la typographie à l'Université du Québec en Outaouais.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Simon Guibord. Le lien s'ouvre dans un nouvel onglet" href="https://simonguibord.com/">Simon Guibord</a></span> est un concepteur graphique qui travaille dans les milieux culturels, universitaires et commerciaux. Il a collaboré avec la Galerie SAW, Artengine, la Galerie d'art d'Ottawa, DAÏMÔN, AXENÉO7, le magazine HB et des artistes de toute la région. Il se spécialise dans les publications et l'élaboration d'identités graphiques. Son travail se caractérise par une approche rationnelle et sensible, ainsi qu'un processus favorisant la recherche et l'expérimentation. Depuis 2015, il enseigne la typographie à l'Université du Québec en Outaouais.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors2"></div>
@@ -141,7 +141,7 @@ export const productionPageFR = `
     <h3 class="summary-content">MARIE LEBLANC FLANAGAN</span> <span class="role">technologue créatif / développeur</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Marie LeBlanc Flanagan's website. Link opens in a new tab" href="https://marieflanagan.com/">Marie LeBlanc Flanagan</a></span> est un artist qui travaille dans les espaces ludiques entre les gens, dans ces places qui touchent au lien et à la communauté. Marie monte des jeux vidéo expérimentaux, des installations ludiques et des expériences coopératives. Iel a un penchant de longue date pour les possibilités qu'offrent les déchets. Marie est également fondateur de <a target="_blank" rel="noopener noreferrer" aria-label="Visit Wyrd Arts Initiatives website. Link opens in a new tab" href="https://wyrdartsinitiatives.org/">Wyrd Arts Initiatives</a>, une organisation nationale sans but lucratif qui encourage, documente et rassemble l'expression créative au Canada, ainsi que de <a target="_blank" rel="noopener noreferrer" aria-label="Visit Drone Day website. Link opens in a new tab" href="https://droneday.org/">Drone Day</a>, une célébration internationale annuelle des communautés de musique de drone. Marie a cofondé <a target="_blank" rel="noopener noreferrer" aria-label="Visit Imaginary Residency website. Link opens in a new tab" href="https://imaginaryresidency.com/">Imaginary Residency</a>, une résidence en ligne gérée par des artistes, ainsi que la <a target="_blank" rel="noopener noreferrer" aria-label="Visit Toronto Games Week website. Link opens in a new tab" href="https://torontogamesweek.com/">Toronto Games Week</a>. Marie est coorganisateur de <a target="_blank" rel="noopener noreferrer" aria-label="Visit GAIA Symposium website. Link opens in a new tab" href="http://gaiasymposium.net/">GAIA</a>, un rassemblement mondial biennal de conservateurs et conservatrices ludiques; membre du conseil d'administration d'<a target="_blank" rel="noopener noreferrer" aria-label="Visit Inter Arts Matrix website. Link opens in a new tab" href="https://www.interartsmatrix.ca/">Inter Arts Matrix</a> et du comité de programmation artistique d'<a target="_blank" rel="noopener noreferrer" aria-label="Visit Eastern Bloc website. Link opens in a new tab" href="https://easternbloc.ca/fr">Eastern Bloc</a>; et ancienne membre du jury du <a target="_blank" rel="noopener noreferrer" aria-label="Visit Polaris Prize website. Link opens in a new tab" href="https://polarismusicprize.ca/fr/">prix Polaris</a>. Marie est experte-conseil auprès d'artistes et d'organisations artistiques comme <a target="_blank" rel="noopener noreferrer" aria-label="Visit Wizard Zines website. Link opens in a new tab" href="https://wizardzines.com/">Wizard Zines</a>, le festival international de jeux et de médias ludiques <a target="_blank" rel="noopener noreferrer" aria-label="Visit A MAZE. Berlin website. Link opens in a new tab" href="https://2021.amaze-berlin.de/">A MAZE. Berlin</a>, <a target="_blank" rel="noopener noreferrer" aria-label="Visit The Processing Foundation website. Link opens in a new tab" href="https://processingfoundation.org/">The Processing Foundation</a>, <a target="_blank" rel="noopener noreferrer" aria-label="Visit The School of Machines, Making, and Make-Believe website. Link opens in a new tab" href="https://www.schoolofma.org/">The School of Machines, Making, and Make-Believe</a>, <a target="_blank" rel="noopener noreferrer" aria-label="Visit Ada X website. Link opens in a new tab" href="https://www.ada-x.org/">Ada x</a>, <a target="_blank" rel="noopener noreferrer" aria-label="Visit Daily Tous Les Jours website. Link opens in a new tab" href="https://www.dailytouslesjours.com/">Daily Tous Les Jours</a> et <a target="_blank" rel="noopener noreferrer" aria-label="Visit Game Arts International Network website. Link opens in a new tab" href="https://gameartsinternational.network/">Game Arts International Network</a>.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Marie LeBlanc Flanagan. Le lien s'ouvre dans un nouvel onglet" href="https://marieflanagan.com/">Marie LeBlanc Flanagan</a></span> est un artist qui travaille dans les espaces ludiques entre les gens, dans ces places qui touchent au lien et à la communauté. Marie monte des jeux vidéo expérimentaux, des installations ludiques et des expériences coopératives. Iel a un penchant de longue date pour les possibilités qu'offrent les déchets. Marie est également fondateur de <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Wyrd Arts Initiatives. Le lien s'ouvre dans un nouvel onglet" href="https://wyrdartsinitiatives.org/">Wyrd Arts Initiatives</a>, une organisation nationale sans but lucratif qui encourage, documente et rassemble l'expression créative au Canada, ainsi que de <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Drone Day. Le lien s'ouvre dans un nouvel onglet" href="https://droneday.org/">Drone Day</a>, une célébration internationale annuelle des communautés de musique de drone. Marie a cofondé <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web d'Imaginary Residency. Le lien s'ouvre dans un nouvel onglet" href="https://imaginaryresidency.com/">Imaginary Residency</a>, une résidence en ligne gérée par des artistes, ainsi que la <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Toronto Games Week. Le lien s'ouvre dans un nouvel onglet" href="https://torontogamesweek.com/">Toronto Games Week</a>. Marie est coorganisateur de <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de GAIA Symposium. Le lien s'ouvre dans un nouvel onglet" href="http://gaiasymposium.net/">GAIA</a>, un rassemblement mondial biennal de conservateurs et conservatrices ludiques; membre du conseil d'administration d'<a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web d'Inter Arts Matrix. Le lien s'ouvre dans un nouvel onglet" href="https://www.interartsmatrix.ca/">Inter Arts Matrix</a> et du comité de programmation artistique d'<a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web d'Eastern Bloc. Le lien s'ouvre dans un nouvel onglet" href="https://easternbloc.ca/fr">Eastern Bloc</a>; et ancienne membre du jury du <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web du Polaris Prize. Le lien s'ouvre dans un nouvel onglet" href="https://polarismusicprize.ca/fr/">prix Polaris</a>. Marie est experte-conseil auprès d'artistes et d'organisations artistiques comme <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Wizard Zines. Le lien s'ouvre dans un nouvel onglet" href="https://wizardzines.com/">Wizard Zines</a>, le festival international de jeux et de médias ludiques <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web d'A MAZE. Berlin. Le lien s'ouvre dans un nouvel onglet" href="https://2021.amaze-berlin.de/">A MAZE. Berlin</a>, <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de The Processing Foundation. Le lien s'ouvre dans un nouvel onglet" href="https://processingfoundation.org/">The Processing Foundation</a>, <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de The School of Machines, Making, and Make-Believe. Le lien s'ouvre dans un nouvel onglet" href="https://www.schoolofma.org/">The School of Machines, Making, and Make-Believe</a>, <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web d'Ada X. Le lien s'ouvre dans un nouvel onglet" href="https://www.ada-x.org/">Ada x</a>, <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Daily Tous Les Jours. Le lien s'ouvre dans un nouvel onglet" href="https://www.dailytouslesjours.com/">Daily Tous Les Jours</a> et <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Game Arts International Network. Le lien s'ouvre dans un nouvel onglet" href="https://gameartsinternational.network/">Game Arts International Network</a>.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors2"></div>
@@ -150,7 +150,7 @@ export const productionPageFR = `
     <h3 class="summary-content">ALLISON O'CONNOR</span> <span class="role roleException">agente de liaison d’art public de la Ville d’Ottawa</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Allison O'Connor's LinkedIn profile. Link opens in a new tab" href="https://www.linkedin.com/in/allioconnor/?originalSubdomain=ca">Allison O'Connor</a></span> est agente d'art public au sein du Programme d'art public de la Ville d'Ottawa. Elle coordonne et commande des œuvres d'art temporaires et permanentes, ainsi que diverses initiatives culturelles dans toute la ville. Allison est également une artiste d'installations qui fait des tournées internationales et crée des œuvres d'art soucieuses de l'environnement et de ses habitants autres qu'humains. Allison est titulaire d'une maîtrise en beaux-arts de la School of Visual Arts de New York, où elle a reçu le Paula Rhodes Memorial Award pour sa thèse sur l'art public au service de la réhabilitation écologique. Allison est apicultrice, tireuse à l'arc amateur et passionnée de mycologie. Ses travaux récents portent sur l'intendance des semences.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le profil LinkedIn d'Allison O'Connor. Le lien s'ouvre dans un nouvel onglet" href="https://www.linkedin.com/in/allioconnor/?originalSubdomain=ca">Allison O'Connor</a></span> est agente d'art public au sein du Programme d'art public de la Ville d'Ottawa. Elle coordonne et commande des œuvres d'art temporaires et permanentes, ainsi que diverses initiatives culturelles dans toute la ville. Allison est également une artiste d'installations qui fait des tournées internationales et crée des œuvres d'art soucieuses de l'environnement et de ses habitants autres qu'humains. Allison est titulaire d'une maîtrise en beaux-arts de la School of Visual Arts de New York, où elle a reçu le Paula Rhodes Memorial Award pour sa thèse sur l'art public au service de la réhabilitation écologique. Allison est apicultrice, tireuse à l'arc amateur et passionnée de mycologie. Ses travaux récents portent sur l'intendance des semences.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors2"></div>
@@ -159,7 +159,7 @@ export const productionPageFR = `
     <h3 class="summary-content">LAURA TALER</span> <span class="role">conception et réalisation</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Laura Taler's website. Link opens in a new tab" href="https://laurataler.ca/">Laura Taler</a></span> est une artiste, cinéaste, chorégraphe et interprète de spectacle née en Roumanie maintes fois primée. Forte d'une carrière de 30 ans dans les pratiques artistiques collaboratives, Laura a une expérience de l'art public qui va des spectacles à grande échelle aux installations permanentes, en passant par les projections et les œuvres sur écran. Elle sait varier les médiums, repousser les limites et utiliser la technologie de manière simple et innovante. Depuis le début de sa carrière, Laura travaille en collaboration en tant que directrice d'une équipe d'artistes et de techniciens et techniciennes. Par l'intermédiaire de sa société Grimm Pictures, fondée en 1994, elle a produit des œuvres pour diverses petites et grandes organisations. En tant qu'artiste, elle tire sa force de sa capacité à donner une vision claire à l'équipe chevronnée qu'elle rassemble autour de chaque projet et à concrétiser cette vision avec précision et souplesse.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Laura Taler. Le lien s'ouvre dans un nouvel onglet" href="https://laurataler.ca/">Laura Taler</a></span> est une artiste, cinéaste, chorégraphe et interprète de spectacle née en Roumanie maintes fois primée. Forte d'une carrière de 30 ans dans les pratiques artistiques collaboratives, Laura a une expérience de l'art public qui va des spectacles à grande échelle aux installations permanentes, en passant par les projections et les œuvres sur écran. Elle sait varier les médiums, repousser les limites et utiliser la technologie de manière simple et innovante. Depuis le début de sa carrière, Laura travaille en collaboration en tant que directrice d'une équipe d'artistes et de techniciens et techniciennes. Par l'intermédiaire de sa société Grimm Pictures, fondée en 1994, elle a produit des œuvres pour diverses petites et grandes organisations. En tant qu'artiste, elle tire sa force de sa capacité à donner une vision claire à l'équipe chevronnée qu'elle rassemble autour de chaque projet et à concrétiser cette vision avec précision et souplesse.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors2"></div>
@@ -168,12 +168,11 @@ export const productionPageFR = `
     <h3 class="summary-content">JOCELYN TODD</span> <span class="role">directrice de la production</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Jocelyn Todd's website. Link opens in a new tab" href="https://www.remembernowmove.art/">Jocelyn Todd</a></span> est une danseuse, chorégraphe, productrice et artiste multidisciplinaire qui vit actuellement à Ottawa. Jocelyn travaille avec le corps et ses interactions avec le moment présent, l'environnement, le paysage politique, le son, l'espace, le concept et les autres corps. Après avoir obtenu un diplôme d'études en danse contemporaine à The School of Dance, Jocelyn a passé son temps à faire la navette entre le Canada et l'Angleterre. À Londres, elle s'est plongée intensément dans des séances d'étude de danse qu'elle organisait elle-même et a présenté son travail au Festival Suffolk High Tide et au Robin Howard Theatre de Londres. Elle a également présenté ses chorégraphies à Ottawa. Ses œuvres récentes (2020-2023) sont <span class="italic">shell</span>, <span class="italic">the A-team</span> et <span class="italic">Time + Light</span>. Son film <span class="italic">Gold</span> a été présenté dans le cadre de Dance On Screen au Mayfair Theatre à l'automne 2021. Elle est profondément reconnaissante du soutien du Centre de danse contemporaine et des communautés qui continuent de l'encourager à Ottawa et à London.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Jocelyn Todd. Le lien s'ouvre dans un nouvel onglet" href="https://www.remembernowmove.art/">Jocelyn Todd</a></span> est une danseuse, chorégraphe, productrice et artiste multidisciplinaire qui vit actuellement à Ottawa. Jocelyn travaille avec le corps et ses interactions avec le moment présent, l'environnement, le paysage politique, le son, l'espace, le concept et les autres corps. Après avoir obtenu un diplôme d'études en danse contemporaine à The School of Dance, Jocelyn a passé son temps à faire la navette entre le Canada et l'Angleterre. À Londres, elle s'est plongée intensément dans des séances d'étude de danse qu'elle organisait elle-même et a présenté son travail au Festival Suffolk High Tide et au Robin Howard Theatre de Londres. Elle a également présenté ses chorégraphies à Ottawa. Ses œuvres récentes (2020-2023) sont <span class="italic">shell</span>, <span class="italic">the A-team</span> et <span class="italic">Time + Light</span>. Son film <span class="italic">Gold</span> a été présenté dans le cadre de Dance On Screen au Mayfair Theatre à l'automne 2021. Elle est profondément reconnaissante du soutien du Centre de danse contemporaine et des communautés qui continuent de l'encourager à Ottawa et à London.</p>
   </article>
 </details>
-
-
 `;
+
 export const contributorsPageEN = `
 <div class="headerDiv">
   <h2 id="contributorsH2">CONTRIBUTORS</h2>
@@ -497,7 +496,7 @@ export const contributorsPageEN = `
 </details>
 <div class="svg-contributors"></div>
 <details>
-  <summary tabindex="0"><h3 class="summary-content">SUTURES PARALLÈLES</h3><span class="role">featuring</h3></summary>
+  <summary tabindex="0"><h3 class="summary-content">SUTURES PARALLÈLES</h3><span class="role">featuring</summary>
   <article>
     <p>
       <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Sutures parallèles podcast page. Link opens in a new tab" href="https://transistor.media/balados/les-sutures-paralleles">Sutures parallèles</a></span> is an uneasy chorus of earthly fabulations, gulch dirges and strained lullabies. Conceived by Marc A. Reinhardt, collectively composed and performed by Eugénie Jobin, Marc A. Reinhardt and Frédérique Roy.
@@ -620,7 +619,7 @@ export const contributorsPageEN = `
 export const contributorsPageFR = `
 
 <div class="headerDiv">
-  <h2 id="contributorsH2">CONTRIBUTORS</h2>
+  <h2 id="contributorsH2">CONTRIBUTEURS</h2>
 </div>
 <div class="svg-contributors"></div>
 <details>
@@ -628,7 +627,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">SARAH ABBOTT</span> 
   </summary>
   <article>
-    <p>Dans ses recherches, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Sarah Abbott's website. Link opens in a new tab" href="https://sarahabbott.ca/">Sarah Abbott</a></span> cherche à comprendre et à présenter les relations sentientes et sensorielles des arbres, des plantes et des non-humains dans leur ensemble, dans des cadres comprenant l'ethnographie publique ou multi-espèce, les systèmes de connaissance autochtones, la théorie de l'émergence d'un point de vue ontologique, la science des plantes, la communication interespèces et la cinématographie ethnographique. Sarah est professeure agrégée à la Faculté de cinéma de l'Université de Regina dans les domaines de la production cinématographique, l'écologie sensible, la pratique ethnographique et le changement climatique. Elle a récemment obtenu un doctorat interdisciplinaire en sciences sociales à la Royal Roads University. Elle est titulaire d'une maîtrise en arts visuels de l'Université de Syracuse et d'un baccalauréat en études cinématographiques et en art dramatique de l'Université Queen's. Sarah a décroché une bourse d'études supérieures du Canada Vanier (2014-2017), le Prix du lieutenant-gouverneur de la Saskatchewan pour les arts et l'apprentissage (2012) ainsi que le Prix des arts et des affaires du maire de Regina pour l'innovation dans les arts (2009).</p>
+    <p>Dans ses recherches, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Sarah Abbott. Le lien s'ouvre dans un nouvel onglet" href="https://sarahabbott.ca/">Sarah Abbott</a></span> cherche à comprendre et à présenter les relations sentientes et sensorielles des arbres, des plantes et des non-humains dans leur ensemble, dans des cadres comprenant l'ethnographie publique ou multi-espèce, les systèmes de connaissance autochtones, la théorie de l'émergence d'un point de vue ontologique, la science des plantes, la communication interespèces et la cinématographie ethnographique. Sarah est professeure agrégée à la Faculté de cinéma de l'Université de Regina dans les domaines de la production cinématographique, l'écologie sensible, la pratique ethnographique et le changement climatique. Elle a récemment obtenu un doctorat interdisciplinaire en sciences sociales à la Royal Roads University. Elle est titulaire d'une maîtrise en arts visuels de l'Université de Syracuse et d'un baccalauréat en études cinématographiques et en art dramatique de l'Université Queen's. Sarah a décroché une bourse d'études supérieures du Canada Vanier (2014-2017), le Prix du lieutenant-gouverneur de la Saskatchewan pour les arts et l'apprentissage (2012) ainsi que le Prix des arts et des affaires du maire de Regina pour l'innovation dans les arts (2009).</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -637,7 +636,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">DIANA BERESFORD-KROEGER</span>
   </summary>
   <article>
-    <p>Botaniste, biochimiste médicale et auteure, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Diana Beresford-Kroeger's website. Link opens in a new tab" href="https://dianaberesford-kroeger.com/">Diana Beresford-Kroeger</a></span> conjugue de façon unique une formation scientifique occidentale à une connaissance des savoirs et des méthodes d'une grande variété de sources traditionnelles et non conventionnelles. Le concept de bioplanification de Beresford-Kroeger incite monsieur et madame tout le monde à tisser une nouvelle relation avec la nature, à considérer l'environnement comme un système biologique et à accomplir la tâche écologique de reboiser la forêt mondiale. Elle est l'auteure, entre autres, de <span class="italic">To Speak for the Trees</span>, <span class="italic">The Sweetness of a Simple Life</span>, <span class="italic">The Global Forest, Arboretum Borealis: A Lifeline of the Planet</span>, <span class="italic">Arboretum America: A Philosophy of the Forest</span> et <span class="italic">A Garden for Life</span>. Un long métrage documentaire sur son travail, <span class="italic">Call of the Forest: The Forgotten Wisdom of Trees</span>, est paru en 2017. Son dernier livre <span class="italic">Our Green Heart</span> sera publié en septembre 2024.</p>
+    <p>Botaniste, biochimiste médicale et auteure, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Diana Beresford-Kroeger. Le lien s'ouvre dans un nouvel onglet" href="https://dianaberesford-kroeger.com/">Diana Beresford-Kroeger</a></span> conjugue de façon unique une formation scientifique occidentale à une connaissance des savoirs et des méthodes d'une grande variété de sources traditionnelles et non conventionnelles. Le concept de bioplanification de Beresford-Kroeger incite monsieur et madame tout le monde à tisser une nouvelle relation avec la nature, à considérer l'environnement comme un système biologique et à accomplir la tâche écologique de reboiser la forêt mondiale. Elle est l'auteure, entre autres, de <span class="italic">To Speak for the Trees</span>, <span class="italic">The Sweetness of a Simple Life</span>, <span class="italic">The Global Forest, Arboretum Borealis: A Lifeline of the Planet</span>, <span class="italic">Arboretum America: A Philosophy of the Forest</span> et <span class="italic">A Garden for Life</span>. Un long métrage documentaire sur son travail, <span class="italic">Call of the Forest: The Forgotten Wisdom of Trees</span>, est paru en 2017. Son dernier livre <span class="italic">Our Green Heart</span> sera publié en septembre 2024.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -655,7 +654,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">ALBERT DUMONT</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Albert Dumont's website. Link opens in a new tab" href="http://albertdumont.com/about/">Albert Dumont</a></span> est un conseiller spirituel algonquin, un poète et un conteur de Kitigan Zibi Anishinabeg. Ses talents artistiques s'étendent dans de nombreux domaines de la communauté artistique. Il a été le poète lauréat anglophone d'Ottawa d'avril 2021 à avril 2023. Albert est également artiste à la plume et à l'encre, acteur et dramaturge. Il a joué sa pièce <span class="italic">Bloodline</span> à plusieurs reprises et a figuré dans des vidéos sur la prévention des incendies, des publicités télévisées et des pièces de théâtre. Il a signé six recueils de poésie et de nouvelles, ainsi que deux livres pour enfants. Il est le fondateur de Turtle Moons Contemplations, où paraissent ses œuvres d'art et ses poèmes. En 2010, Albert a décroché le prix des droits de la personne de l'Alliance de la fonction publique du Canada et, en 2018, il a reçu la mention DreamKEEPERS pour un leadership exceptionnel. Il a consacré sa vie à la promotion de la spiritualité et des méthodes de guérison autochtones ainsi qu'à la défense des droits des peuples autochtones, surtout des jeunes. Il est le père de trois filles, le grand-père de cinq petits-enfants et l'arrière-grand-père d'un arrière-petit-enfant.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web d'Albert Dumont. Le lien s'ouvre dans un nouvel onglet" href="http://albertdumont.com/about/">Albert Dumont</a></span> est un conseiller spirituel algonquin, un poète et un conteur de Kitigan Zibi Anishinabeg. Ses talents artistiques s'étendent dans de nombreux domaines de la communauté artistique. Il a été le poète lauréat anglophone d'Ottawa d'avril 2021 à avril 2023. Albert est également artiste à la plume et à l'encre, acteur et dramaturge. Il a joué sa pièce <span class="italic">Bloodline</span> à plusieurs reprises et a figuré dans des vidéos sur la prévention des incendies, des publicités télévisées et des pièces de théâtre. Il a signé six recueils de poésie et de nouvelles, ainsi que deux livres pour enfants. Il est le fondateur de Turtle Moons Contemplations, où paraissent ses œuvres d'art et ses poèmes. En 2010, Albert a décroché le prix des droits de la personne de l'Alliance de la fonction publique du Canada et, en 2018, il a reçu la mention DreamKEEPERS pour un leadership exceptionnel. Il a consacré sa vie à la promotion de la spiritualité et des méthodes de guérison autochtones ainsi qu'à la défense des droits des peuples autochtones, surtout des jeunes. Il est le père de trois filles, le grand-père de cinq petits-enfants et l'arrière-grand-père d'un arrière-petit-enfant.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -664,7 +663,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">LANG ELLIOTT</span>
   </summary>
   <article>
-    <p><span class="bold">Lang Elliott</span> est un preneur de son de renom qui enregistre la nature. Actuellement, il se spécialise dans la capture d'univers sonores atmosphériques à effets 3D et biauriculaire des zones sauvages d'Amérique du Nord. Pour en savoir plus sur son travail, visitez le site <a target="_blank" rel="noopener noreferrer" aria-label="Visit Music of Nature website. Link opens in a new tab" href="https://musicofnature.com/">Music of Nature</a>. On retrouve un grand nombre des productions sonores de Lang sur son application mobile bien connue <a target="_blank" rel="noopener noreferrer" aria-label="Visit Pure Nature 3D Soundscapes app page. Link opens in a new tab" href="https://apps.apple.com/us/app/pure-nature-3d-soundscapes/id1357380255">Pure Nature 3D Soundscapes</a>, qui fait voyager l'audience dans la nature sans le moindre effort. Chaque enregistrement s'accompagne d'ailleurs d'un texte d'information décrivant l'habitat et ce qu'on entend. Lang a également co-développé <a target="_blank" rel="noopener noreferrer" aria-label="Visit Hear Birds Again app page. Link opens in a new tab" href="https://apps.apple.com/us/app/hear-birds-again/id6444369779?platform=iphone;">Hear Birds Again</a>, une nouvelle application unique destinée aux ornithologues amateurs souffrant d'une perte auditive dans les hautes fréquences. L'application permet d'abaisser la tonalité aiguë des chants d'oiseaux pour les ramener dans une gamme de fréquences audible.</p>
+    <p><span class="bold">Lang Elliott</span> est un preneur de son de renom qui enregistre la nature. Actuellement, il se spécialise dans la capture d'univers sonores atmosphériques à effets 3D et biauriculaire des zones sauvages d'Amérique du Nord. Pour en savoir plus sur son travail, visitez le site <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web Music of Nature. Le lien s'ouvre dans un nouvel onglet" href="https://musicofnature.com/">Music of Nature</a>. On retrouve un grand nombre des productions sonores de Lang sur son application mobile bien connue <a target="_blank" rel="noopener noreferrer" aria-label="Visitez la page de l'application Pure Nature 3D Soundscapes. Le lien s'ouvre dans un nouvel onglet" href="https://apps.apple.com/us/app/pure-nature-3d-soundscapes/id1357380255">Pure Nature 3D Soundscapes</a>, qui fait voyager l'audience dans la nature sans le moindre effort. Chaque enregistrement s'accompagne d'ailleurs d'un texte d'information décrivant l'habitat et ce qu'on entend. Lang a également co-développé <a target="_blank" rel="noopener noreferrer" aria-label="Visitez la page de l'application Hear Birds Again. Le lien s'ouvre dans un nouvel onglet" href="https://apps.apple.com/us/app/hear-birds-again/id6444369779?platform=iphone;">Hear Birds Again</a>, une nouvelle application unique destinée aux ornithologues amateurs souffrant d'une perte auditive dans les hautes fréquences. L'application permet d'abaisser la tonalité aiguë des chants d'oiseaux pour les ramener dans une gamme de fréquences audible.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -691,7 +690,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">KIM KILPATRICK</span>
   </summary>
   <article>
-    <p><span class="bold">Kim Kilpatrick</span> est une conteuse professionnelle, une musicothérapeute, une consultante en accessibilité et une férue de la nature. Elle a signé trois spectacles solos sur la vie d'une personne aveugle dans un monde peuplé de gens voyants : <span class="italic">Flying in the Dark</span> (2011), <span class="italic">Raising Stanley/Life with Tulia</span> (2018) et <span class="italic">Dangerous Touch</span> (living through COVID when blind 2022). Kim est une artiste en vedette d'<a target="_blank" rel="noopener noreferrer" aria-label="Visit Ottawa Storytellers website. Link opens in a new tab" href="http://www.ottawastorytellers.ca/">Ottawa Storytellers</a>, <a target="_blank" rel="noopener noreferrer" aria-label="Visit MASC website. Link opens in a new tab" href="http://www.masconline.ca/">MASC</a> et <a target="_blank" rel="noopener noreferrer" aria-label="Visit Radical Connections website. Link opens in a new tab" href="http://www.radicalconnections.ca/">Radical Connections</a>. Elle voyage avec son cinquième chien-guide Ginger, un labrador jaune qui a parcouru les sentiers avec elle pour ce projet.</p>
+    <p><span class="bold">Kim Kilpatrick</span> est une conteuse professionnelle, une musicothérapeute, une consultante en accessibilité et une férue de la nature. Elle a signé trois spectacles solos sur la vie d'une personne aveugle dans un monde peuplé de gens voyants : <span class="italic">Flying in the Dark</span> (2011), <span class="italic">Raising Stanley/Life with Tulia</span> (2018) et <span class="italic">Dangerous Touch</span> (living through COVID when blind 2022). Kim est une artiste en vedette d'<a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web d'Ottawa Storytellers. Le lien s'ouvre dans un nouvel onglet" href="http://www.ottawastorytellers.ca/">Ottawa Storytellers</a>, <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de MASC. Le lien s'ouvre dans un nouvel onglet" href="http://www.masconline.ca/">MASC</a> et <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Radical Connections. Le lien s'ouvre dans un nouvel onglet" href="http://www.radicalconnections.ca/">Radical Connections</a>. Elle voyage avec son cinquième chien-guide Ginger, un labrador jaune qui a parcouru les sentiers avec elle pour ce projet.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -700,7 +699,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">FIDES KRUCKER</span>
   </summary>
   <article>
-    <p>Depuis quarante ans, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Fides Krucker's website. Link opens in a new tab" href="https://www.fideskrucker.com/">Fides Krucker</a></span> chante, produit et crée des opéras contemporains ainsi que des œuvres interdisciplinaires au Canada et à l'étranger. Son livre <span class="italic"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Reclaiming Calliope book page. Link opens in a new tab" href="https://www.penguinrandomhouse.ca/books/706315/reclaiming-calliope-by-fides-krucker/9781623177065">Reclaiming Calliope: Freeing the Female Voice through Undomesticated Singing</a></span> (North Atlantic Books) redonne vie à la voix humaine grâce à l'intégration émotionnelle ancrée sur le corps. En 1991, Fides a fondé l'ensemble interdisciplinaire URGE, dont la dernière œuvre a décroché deux Prix Dora et a été publiée par Playwrights Canada. En 2018, sa compagnie, Good Hair Day Productions, connue pour produire du théâtre lyrique révolutionnaire, a présenté <span class="italic">In This Body</span> au Canadian Stage avec les danseuses Heidi Strauss, Laurence Lemieux et Peggy Baker. La voix de Fides est reconnue pour « son registre vocal et son contrôle stupéfiants [...] plus une force de la nature qu'un instrument ». Fides a enseigné le chant au Collège Humber pendant vingt ans et accompagne une multitude d'artistes au Canada et aux États-Unis. Son programme de formation du corps enseignant sur deux ans a été lancé à l'été 2021.</p>
+    <p>Depuis quarante ans, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Fides Krucker. Le lien s'ouvre dans un nouvel onglet" href="https://www.fideskrucker.com/">Fides Krucker</a></span> chante, produit et crée des opéras contemporains ainsi que des œuvres interdisciplinaires au Canada et à l'étranger. Son livre <span class="italic"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez la page du livre Reclaiming Calliope. Le lien s'ouvre dans un nouvel onglet" href="https://www.penguinrandomhouse.ca/books/706315/reclaiming-calliope-by-fides-krucker/9781623177065">Reclaiming Calliope: Freeing the Female Voice through Undomesticated Singing</a></span> (North Atlantic Books) redonne vie à la voix humaine grâce à l'intégration émotionnelle ancrée sur le corps. En 1991, Fides a fondé l'ensemble interdisciplinaire URGE, dont la dernière œuvre a décroché deux Prix Dora et a été publiée par Playwrights Canada. En 2018, sa compagnie, Good Hair Day Productions, connue pour produire du théâtre lyrique révolutionnaire, a présenté <span class="italic">In This Body</span> au Canadian Stage avec les danseuses Heidi Strauss, Laurence Lemieux et Peggy Baker. La voix de Fides est reconnue pour « son registre vocal et son contrôle stupéfiants [...] plus une force de la nature qu'un instrument ». Fides a enseigné le chant au Collège Humber pendant vingt ans et accompagne une multitude d'artistes au Canada et aux États-Unis. Son programme de formation du corps enseignant sur deux ans a été lancé à l'été 2021.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -718,7 +717,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">KIKO PACE</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Kiko Pace's website. Link opens in a new tab" href="https://kikosounds.com/">Kiko Pace</a></span> ouvre des portails vers une écoute immersive grâce à des installations, la création de sons, la méditation et les pratiques réparatrices. Iel organise actuellement des expériences de bains sonores privés et en groupe dans son studio <a target="_blank" rel="noopener noreferrer" aria-label="Visit Kiko Space website. Link opens in a new tab" href="https://www.kikospace.ca/">Kiko Space</a> à Roncesvalles, Tkaronto, et propose des retraites, des ateliers et des formations pour plonger en profondeur dans l'art et la science du son. Kiko a une passion profonde pour la communication, l'apprentissage et l'hommage rendu à la nature grâce aux études et aux rituels personnels. Tout commence par la reconnaissance du privilège de pouvoir travailler sur cette terre, de la nécessité d'en prendre soin et de notre responsabilité envers nous-mêmes, la terre et les autres.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Kiko Pace. Le lien s'ouvre dans un nouvel onglet" href="https://kikosounds.com/">Kiko Pace</a></span> ouvre des portails vers une écoute immersive grâce à des installations, la création de sons, la méditation et les pratiques réparatrices. Iel organise actuellement des expériences de bains sonores privés et en groupe dans son studio <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Kiko Space. Le lien s'ouvre dans un nouvel onglet" href="https://www.kikospace.ca/">Kiko Space</a> à Roncesvalles, Tkaronto, et propose des retraites, des ateliers et des formations pour plonger en profondeur dans l'art et la science du son. Kiko a une passion profonde pour la communication, l'apprentissage et l'hommage rendu à la nature grâce aux études et aux rituels personnels. Tout commence par la reconnaissance du privilège de pouvoir travailler sur cette terre, de la nécessité d'en prendre soin et de notre responsabilité envers nous-mêmes, la terre et les autres.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -727,7 +726,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">DEMETRIOS PETSALAKIS</span>
   </summary>
   <article>
-    <p>Originaire d'Athènes, en Grèce, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Demetri Petsalakis's SoundCloud page. Link opens in a new tab" href="https://soundcloud.com/dpetsalakis">Demetri Petsalakis</a></span> est un musicien torontois jouant dans une multitude de styles et mettant en avant les luths grecs et du Moyen-Orient. Influencé par la riche diversité culturelle du Canada, Demetri incorpore des éléments musicaux de différentes traditions afin de créer un son contemporain : le reflet à la fois de son héritage et de sa communauté d'appartenance. Membre actif de la scène musicale mondiale de Toronto, Demetri a composé, enregistré et joué avec de nombreux groupes, dont Kune, Niyaz, Tafelmusik, Ventanas, Near East Trio, Zephyr, Turkwaz, Moneka Arabic Jazz et Moskitto Bar. Au cours de sa formation musicale, Demetri a eu la chance de se former auprès d'un grand nombre d'illustres personnalités, notamment les maîtres du oud Bassam Bishara et Christos Tsiamoulis; le maître de la lyra crétoise Astrinos Zaharioudakis; et le célèbre guitariste de jazz Lorne Lofsky.</p>
+    <p>Originaire d'Athènes, en Grèce, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez la page SoundCloud de Demetri Petsalakis. Le lien s'ouvre dans un nouvel onglet" href="https://soundcloud.com/dpetsalakis">Demetri Petsalakis</a></span> est un musicien torontois jouant dans une multitude de styles et mettant en avant les luths grecs et du Moyen-Orient. Influencé par la riche diversité culturelle du Canada, Demetri incorpore des éléments musicaux de différentes traditions afin de créer un son contemporain : le reflet à la fois de son héritage et de sa communauté d'appartenance. Membre actif de la scène musicale mondiale de Toronto, Demetri a composé, enregistré et joué avec de nombreux groupes, dont Kune, Niyaz, Tafelmusik, Ventanas, Near East Trio, Zephyr, Turkwaz, Moneka Arabic Jazz et Moskitto Bar. Au cours de sa formation musicale, Demetri a eu la chance de se former auprès d'un grand nombre d'illustres personnalités, notamment les maîtres du oud Bassam Bishara et Christos Tsiamoulis; le maître de la lyra crétoise Astrinos Zaharioudakis; et le célèbre guitariste de jazz Lorne Lofsky.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -736,7 +735,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">NAMITHA RATHINAPPILLAI</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Namitha Rathinappillai's website. Link opens in a new tab" href="http://namitharathinappillai.com/">Namitha Rathinappillai</a></span> est une poétesse de tradition orale, une organisatrice et une animatrice d'ateliers canadienne tamoule, grosse, handicapée et queer. Elle est entrée dans la communauté de la poésie en 2017. Actuellement basée à Toronto, elle a été la première femme et la plus jeune directrice du Urban Legends Poetry Collective (ULPC) d'Ottawa. Elle a été membre de l'équipe du Canadian Festival of Spoken Word (CFSW) à deux reprises avec le ULPC. Son premier livre de colportage intitulé <span class="italic">Dirty Laundry</span> est paru chez Battleaxe Press en novembre 2018. En 2019, elle a remporté le Prix inspiration jeunesse de la capitale de la RBC pour les arts et la culture. Elle aime les travaux manuels, écrire des lettres à ses amis et regarder la lune.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Namitha Rathinappillai. Le lien s'ouvre dans un nouvel onglet" href="http://namitharathinappillai.com/">Namitha Rathinappillai</a></span> est une poétesse de tradition orale, une organisatrice et une animatrice d'ateliers canadienne tamoule, grosse, handicapée et queer. Elle est entrée dans la communauté de la poésie en 2017. Actuellement basée à Toronto, elle a été la première femme et la plus jeune directrice du Urban Legends Poetry Collective (ULPC) d'Ottawa. Elle a été membre de l'équipe du Canadian Festival of Spoken Word (CFSW) à deux reprises avec le ULPC. Son premier livre de colportage intitulé <span class="italic">Dirty Laundry</span> est paru chez Battleaxe Press en novembre 2018. En 2019, elle a remporté le Prix inspiration jeunesse de la capitale de la RBC pour les arts et la culture. Elle aime les travaux manuels, écrire des lettres à ses amis et regarder la lune.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -745,7 +744,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">PATRICIA REYNOLDS</span>
   </summary>
   <article>
-    <p>Enseignante de métier, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Patricia Reynolds's profile on Radical Connections website. Link opens in a new tab" href="https://www.radicalconnections.ca/artistdirectory/v/patricia-reynolds-vocals-guitar-folk-gospel-swing-pop-wwii-country-campfire-quebecois">Patricia Reynolds</a></span> s'implique dans l'éducation autochtone depuis plus de 30 ans. Elle joue du tambour avec No Borders Drum Circle et parfois également avec le Thunderbird Sisters Collective -- avec qui elle fait d'autres spectacles. Aujourd'hui à la retraite, Patricia chante avec Just Voices: An Activist Choir et No Borders Community Voices, en plus de se produire avec Carmel Whittle. Patricia a récemment participé au projet <span class="italic">Odaabaanag</span> de Beverley et Melody McKiver en tant qu'organisatrice, accompagnatrice et membre de No Borders Community Voices. Elle travaille actuellement avec Unmasked Connections, un projet qui présente les arts aux pensionnaires des établissements de soins de longue durée.</p>
+    <p>Enseignante de métier, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le profil de Patricia Reynolds sur le site Web de Radical Connections. Le lien s'ouvre dans un nouvel onglet" href="https://www.radicalconnections.ca/artistdirectory/v/patricia-reynolds-vocals-guitar-folk-gospel-swing-pop-wwii-country-campfire-quebecois">Patricia Reynolds</a></span> s'implique dans l'éducation autochtone depuis plus de 30 ans. Elle joue du tambour avec No Borders Drum Circle et parfois également avec le Thunderbird Sisters Collective -- avec qui elle fait d'autres spectacles. Aujourd'hui à la retraite, Patricia chante avec Just Voices: An Activist Choir et No Borders Community Voices, en plus de se produire avec Carmel Whittle. Patricia a récemment participé au projet <span class="italic">Odaabaanag</span> de Beverley et Melody McKiver en tant qu'organisatrice, accompagnatrice et membre de No Borders Community Voices. Elle travaille actuellement avec Unmasked Connections, un projet qui présente les arts aux pensionnaires des établissements de soins de longue durée.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -754,7 +753,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">JESSE STEWART</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Jesse Stewart's profile on Carleton University website. Link opens in a new tab" href="https://carleton.ca/music/people/stewart-jesse/">Jesse Stewart</a></span> est compositeur, percussionniste, artiste et éducateur. Il compte à son actif plus de vingt enregistrements, dont un premier album éponyme de Stretch Orchestra, couronné du prix Juno de l'Album instrumental de l'année 2012. Jesse a reçu de nombreuses commandes en tant que compositeur et artiste. En 2012, il a fondé We Are All Musicians (WAAM), une organisation visant à rendre la musique accessible au plus grand nombre possible. Dans le cadre de cette initiative, Jesse a dirigé des centaines d'ateliers et de spectacles de musique inclusive dans toute l'Amérique du Nord. Il a reçu de nombreux prix et distinctions, notamment le Prix du Conseil des arts d'Ottawa pour les artistes à mi-carrière (2017) et le Prix de l'éducateur ou de l'éducatrice artistique communautaire (2023). En 2014, il a été nommé à l'Ordre d'Ottawa. En 2022, il a été élu au Collège de nouveaux chercheurs et créateurs en art et en science de la Société royale du Canada. Il est membre du corps enseignant de la School for Studies in Art and Culture de l'Université Carleton.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le profil de Jesse Stewart sur le site Web de l'Université Carleton. Le lien s'ouvre dans un nouvel onglet" href="https://carleton.ca/music/people/stewart-jesse/">Jesse Stewart</a></span> est compositeur, percussionniste, artiste et éducateur. Il compte à son actif plus de vingt enregistrements, dont un premier album éponyme de Stretch Orchestra, couronné du prix Juno de l'Album instrumental de l'année 2012. Jesse a reçu de nombreuses commandes en tant que compositeur et artiste. En 2012, il a fondé We Are All Musicians (WAAM), une organisation visant à rendre la musique accessible au plus grand nombre possible. Dans le cadre de cette initiative, Jesse a dirigé des centaines d'ateliers et de spectacles de musique inclusive dans toute l'Amérique du Nord. Il a reçu de nombreux prix et distinctions, notamment le Prix du Conseil des arts d'Ottawa pour les artistes à mi-carrière (2017) et le Prix de l'éducateur ou de l'éducatrice artistique communautaire (2023). En 2014, il a été nommé à l'Ordre d'Ottawa. En 2022, il a été élu au Collège de nouveaux chercheurs et créateurs en art et en science de la Société royale du Canada. Il est membre du corps enseignant de la School for Studies in Art and Culture de l'Université Carleton.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -772,7 +771,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">ELLEN WATERMAN</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Ellen Waterman's website. Link opens in a new tab" href="http://www.ellenwaterman.ca/">Ellen Waterman</a></span> est professeure à la School for Studies in Art and Culture et titulaire de la chaire Helmut Kallmann de recherche en musique canadienne à l'Université Carleton. Elle est à la fois chercheuse en musique et flûtiste spécialisée en improvisation créative. Ses travaux sur l'écologie acoustique comprennent les livres <span class="italic">Sonic Geography Imagined and Remembered</span> et <span class="italic">The Art of Immersive Soundscapes</span>. Avec Gillian Siddall, Ellen est co-éditrice de <span class="italic">Negotiated Moments: Improvisation, Sound, and Subjectivity</span>, et elle est coéditrice fondatrice de la revue <span class="italic"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Critical Studies in Improvisation website. Link opens in a new tab" href="http://www.criticalimprov.com/">Critical Studies in Improvisation/Études critiques en improvisation</a></span>. En 2021, elle a fondé le <a target="_blank" rel="noopener noreferrer" aria-label="Visit Research Centre for Music, Sound, and Society in Canada website. Link opens in a new tab" href="http://www.carleton.ca/mssc">Research Centre for Music, Sound, and Society in Canada</a> pour l'exploration des rôles divers et complexes que jouent la musique et les arts sonores dans l'édification de la société canadienne.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web d'Ellen Waterman. Le lien s'ouvre dans un nouvel onglet" href="http://www.ellenwaterman.ca/">Ellen Waterman</a></span> est professeure à la School for Studies in Art and Culture et titulaire de la chaire Helmut Kallmann de recherche en musique canadienne à l'Université Carleton. Elle est à la fois chercheuse en musique et flûtiste spécialisée en improvisation créative. Ses travaux sur l'écologie acoustique comprennent les livres <span class="italic">Sonic Geography Imagined and Remembered</span> et <span class="italic">The Art of Immersive Soundscapes</span>. Avec Gillian Siddall, Ellen est co-éditrice de <span class="italic">Negotiated Moments: Improvisation, Sound, and Subjectivity</span>, et elle est coéditrice fondatrice de la revue <span class="italic"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de la revue Critical Studies in Improvisation. Le lien s'ouvre dans un nouvel onglet" href="http://www.criticalimprov.com/">Critical Studies in Improvisation/Études critiques en improvisation</a></span>. En 2021, elle a fondé le <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web du Research Centre for Music, Sound, and Society in Canada. Le lien s'ouvre dans un nouvel onglet" href="http://www.carleton.ca/mssc">Research Centre for Music, Sound, and Society in Canada</a> pour l'exploration des rôles divers et complexes que jouent la musique et les arts sonores dans l'édification de la société canadienne.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -790,7 +789,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">JAYNE YACK</span>
   </summary>
   <article>
-    <p>La professeure de biologie <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Jayne Yack's website. Link opens in a new tab" href="https://www.yacklab.org/">Jayne Yack</a></span> est fascinée par les « mondes » sensoriels uniques des animaux et, surtout, par la manière dont les insectes utilisent des sons et des vibrations surhumaines pour survivre. Jayne a obtenu son doctorat à l'Université de Toronto et a suivi un stage postdoctoral à l'Université de Cornell. Elle dirige actuellement un laboratoire de recherche à l'Université Carleton d'Ottawa. Accompagnée de ses élèves, elle utilise des instruments spécialisés pour faire des découvertes étonnantes, comme la façon dont les papillons utilisent les oreilles sur leurs ailes pour détecter les prédateurs, et comment les chenilles communiquent en utilisant les vibrations des feuilles pour former des groupes sociaux ou pour faire des « batailles de rap » dans leurs guerres territoriales.</p>
+    <p>La professeure de biologie <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Jayne Yack. Le lien s'ouvre dans un nouvel onglet" href="https://www.yacklab.org/">Jayne Yack</a></span> est fascinée par les « mondes » sensoriels uniques des animaux et, surtout, par la manière dont les insectes utilisent des sons et des vibrations surhumaines pour survivre. Jayne a obtenu son doctorat à l'Université de Toronto et a suivi un stage postdoctoral à l'Université de Cornell. Elle dirige actuellement un laboratoire de recherche à l'Université Carleton d'Ottawa. Accompagnée de ses élèves, elle utilise des instruments spécialisés pour faire des découvertes étonnantes, comme la façon dont les papillons utilisent les oreilles sur leurs ailes pour détecter les prédateurs, et comment les chenilles communiquent en utilisant les vibrations des feuilles pour former des groupes sociaux ou pour faire des « batailles de rap » dans leurs guerres territoriales.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -799,7 +798,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">SUTURES PARALLÈLES</h3><span class="role">mettant en vedette</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Sutures parallèles podcast page. Link opens in a new tab" href="https://transistor.media/balados/les-sutures-paralleles">Sutures parallèles</a></span> est un chœur troublé de fabulations terrestres, de lamentations caverneuses et de berceuses bouleversées, conçu par Marc A. Reinhardt, composé et interprété par Eugénie Jobin, Marc A. Reinhardt et Frédérique Roy.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez la page du podcast Sutures parallèles. Le lien s'ouvre dans un nouvel onglet" href="https://transistor.media/balados/les-sutures-paralleles">Sutures parallèles</a></span> est un chœur troublé de fabulations terrestres, de lamentations caverneuses et de berceuses bouleversées, conçu par Marc A. Reinhardt, composé et interprété par Eugénie Jobin, Marc A. Reinhardt et Frédérique Roy.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors-indent"></div>
@@ -808,7 +807,7 @@ export const contributorsPageFR = `
     <h4 class="summary-content summary-indent">MARC A. REINHARDT</span>
   </summary>
   <article>
-    <p class="summary-indent"><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Marc A. Reinhardt's website. Link opens in a new tab" href="https://marcareinhardt.com/">Marc A. Reinhardt</a></span> est un comparatiste qui travaille à l'intersection du son, du texte, du spectacle et des installations. Sa pratique s'ancre dans les processus de composition étudiant les enjeux de transduction, d'historicité et d'agence collective. Il s'intéresse à la manière dont nous vivons en contradiction, dans le langage et au-delà, ce qu'il transpose dans ces recherches. Son travail a été présenté au Canada, en Europe et en Amérique du Sud.</p>
+    <p class="summary-indent"><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Marc A. Reinhardt. Le lien s'ouvre dans un nouvel onglet" href="https://marcareinhardt.com/">Marc A. Reinhardt</a></span> est un comparatiste qui travaille à l'intersection du son, du texte, du spectacle et des installations. Sa pratique s'ancre dans les processus de composition étudiant les enjeux de transduction, d'historicité et d'agence collective. Il s'intéresse à la manière dont nous vivons en contradiction, dans le langage et au-delà, ce qu'il transpose dans ces recherches. Son travail a été présenté au Canada, en Europe et en Amérique du Sud.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors-indent"></div>
@@ -835,7 +834,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">THE THUNDERBIRD SISTERS COLLECTIVE</h3><span class="role">mettant en vedette</span>
   </summary>
   <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Thunderbird Sisters Collective website. Link opens in a new tab" href="https://thunderbirdsisterscollective.com/">Le Thunderbird Sisters Collective</a></span> a été fondé en 2017 par l'artiste métisse Patsea Griffin, après avoir assisté à des ateliers où elle a vu certaines de ses amies créer les plus fabuleux ouvrages en perles ainsi que d'autres œuvres d'art traditionnelles et non traditionnelles, pour ensuite les ranger -- comme elle-même le faisait -- dans un tiroir, un contenant ou un sac à fermeture à glissière... dont les ouvrages ne ressortaient parfois jamais. « J'ai décidé de montrer mes créations, qui m'ont demandé des heures de travail. Alors je me suis dit que j'allais aider les autres à faire de même. Il y a tellement de talents dans la communauté qui n'ont jamais l'occasion de montrer leur travail. Et ce sont des ouvrages extraordinaires! » En 2021, le Thunderbird Sisters Collective est devenu une organisation sans but lucratif dont l'objectif est de créer des espaces bienveillants dirigés par des jeunes, où il sera démontré que l'apprentissage des connaissances autochtones a un intérêt commercial et se transpose dans l'expérience personnelle, professionnelle et communautaire. Nous allons rêver à voix haute.</p>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web du Thunderbird Sisters Collective. Le lien s'ouvre dans un nouvel onglet" href="https://thunderbirdsisterscollective.com/">Le Thunderbird Sisters Collective</a></span> a été fondé en 2017 par l'artiste métisse Patsea Griffin, après avoir assisté à des ateliers où elle a vu certaines de ses amies créer les plus fabuleux ouvrages en perles ainsi que d'autres œuvres d'art traditionnelles et non traditionnelles, pour ensuite les ranger -- comme elle-même le faisait -- dans un tiroir, un contenant ou un sac à fermeture à glissière... dont les ouvrages ne ressortaient parfois jamais. « J'ai décidé de montrer mes créations, qui m'ont demandé des heures de travail. Alors je me suis dit que j'allais aider les autres à faire de même. Il y a tellement de talents dans la communauté qui n'ont jamais l'occasion de montrer leur travail. Et ce sont des ouvrages extraordinaires! » En 2021, le Thunderbird Sisters Collective est devenu une organisation sans but lucratif dont l'objectif est de créer des espaces bienveillants dirigés par des jeunes, où il sera démontré que l'apprentissage des connaissances autochtones a un intérêt commercial et se transpose dans l'expérience personnelle, professionnelle et communautaire. Nous allons rêver à voix haute.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors-indent"></div>
@@ -862,7 +861,7 @@ export const contributorsPageFR = `
     <h4 class="summary-content summary-indent">CARMEL WHITTLE</h4>
   </summary>
   <article>
-    <p class="summary-indent"><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Carmel Whittle's website. Link opens in a new tab" href="https://carmelwhittle.com/">Carmel Whittle</a></span> s'identifie comme une artiste, activiste, cinéaste indépendante, musicienne et compositrice de la communauté culturelle bispirituelle, lesbienne, Mi'kmaq et irlandaise. Dans la pratique des arts communautaires décolonisés, Carmel élabore, dirige et organise le No Borders Art Festival. Elle est aussi coordonnatrice de programme pour le Thunderbird Sisters Collective. Parmi ses films documentaires, on peut citer <span class="italic">There Is No Word</span>, réalisé pour Greenpeace Canada; <span class="italic">Bringing The Land To The City,</span> produit d'une résidence cinématographique avec Digital Art Resource Centre; et <span class="italic">One Contrary 5 Agokwe Nini</span>, qui met en vedette des membres de la communauté 2SLGBTQ et de l'équipe de cocréation collaborative du Podcast #83. Ses œuvres sont actuellement exposées chez Artvocate, au Royaume-Uni. Soliste pour le projet Odaabaanag, Carmel tire son inspiration de la nature et de la culture et se sent profondément liée à l'océan et à la communauté. Elle est également éducatrice en art indépendante, mentore, animatrice d'ateliers et experte-conseil auprès de diverses communautés artistiques.</p>
+    <p class="summary-indent"><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Carmel Whittle. Le lien s'ouvre dans un nouvel onglet" href="https://carmelwhittle.com/">Carmel Whittle</a></span> s'identifie comme une artiste, activiste, cinéaste indépendante, musicienne et compositrice de la communauté culturelle bispirituelle, lesbienne, Mi'kmaq et irlandaise. Dans la pratique des arts communautaires décolonisés, Carmel élabore, dirige et organise le No Borders Art Festival. Elle est aussi coordonnatrice de programme pour le Thunderbird Sisters Collective. Parmi ses films documentaires, on peut citer <span class="italic">There Is No Word</span>, réalisé pour Greenpeace Canada; <span class="italic">Bringing The Land To The City,</span> produit d'une résidence cinématographique avec Digital Art Resource Centre; et <span class="italic">One Contrary 5 Agokwe Nini</span>, qui met en vedette des membres de la communauté 2SLGBTQ et de l'équipe de cocréation collaborative du Podcast #83. Ses œuvres sont actuellement exposées chez Artvocate, au Royaume-Uni. Soliste pour le projet Odaabaanag, Carmel tire son inspiration de la nature et de la culture et se sent profondément liée à l'océan et à la communauté. Elle est également éducatrice en art indépendante, mentore, animatrice d'ateliers et experte-conseil auprès de diverses communautés artistiques.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
@@ -871,7 +870,7 @@ export const contributorsPageFR = `
     <h3 class="summary-content">TURKWAZ</h3><span class="role">mettant en vedette</span>
   </summary>
   <article>
-    <p class="summary-indent"><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Turkwaz's website. Link opens in a new tab" href="https://turkwaz.ca/">Turkwaz</a></span>, c'est un groupe formé de Jayne Brown, Sophia Grigoriadis, Brenna MacCrimmon et Maryem Tollar, quatre chanteuses qui ont largement contribué à la scène de la musique du monde à Toronto et au-delà. Turkwaz se concentre sur l'interprétation de chansons issues principalement des répertoires traditionnels grecs, turques, arabes et balkaniques, avec des incursions dans d'autres genres quand l'inspiration s'en mêle. Le quanoûn, le tambûr, le ukulélé et divers instruments de percussion à main accompagnent en douceur les arrangements du groupe, ce qui permet aux voix des chanteuses de rester au premier plan. Elles adorent chanter dans des styles traditionnels purs, mais n'ont pas peur d'ajouter des harmonies là où il n'y en a jamais eu. Toutes des musiciennes agiles et aimant la collaboration entre les genres, Turkwaz a sorti un premier album, Nazar, qui a été mis en lice pour les prix Juno et les prix de musique folk canadienne dès sa parution.</p>
+    <p class="summary-indent"><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Turkwaz. Le lien s'ouvre dans un nouvel onglet" href="https://turkwaz.ca/">Turkwaz</a></span>, c'est un groupe formé de Jayne Brown, Sophia Grigoriadis, Brenna MacCrimmon et Maryem Tollar, quatre chanteuses qui ont largement contribué à la scène de la musique du monde à Toronto et au-delà. Turkwaz se concentre sur l'interprétation de chansons issues principalement des répertoires traditionnels grecs, turques, arabes et balkaniques, avec des incursions dans d'autres genres quand l'inspiration s'en mêle. Le quanoûn, le tambûr, le ukulélé et divers instruments de percussion à main accompagnent en douceur les arrangements du groupe, ce qui permet aux voix des chanteuses de rester au premier plan. Elles adorent chanter dans des styles traditionnels purs, mais n'ont pas peur d'ajouter des harmonies là où il n'y en a jamais eu. Toutes des musiciennes agiles et aimant la collaboration entre les genres, Turkwaz a sorti un premier album, Nazar, qui a été mis en lice pour les prix Juno et les prix de musique folk canadienne dès sa parution.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors-indent"></div>
@@ -889,7 +888,7 @@ export const contributorsPageFR = `
     <h4 class="summary-content summary-indent">SOPHIA GRIGORIADIS</h4>
   </summary>
   <article>
-  <p class="summary-indent"><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Sophia Grigoriadis's LinkedIn profile. Link opens in a new tab" href="https://www.linkedin.com/in/sophia-grigoriadis-52015911/?originalSubdomain=ca">Sophia Grigoriadis</a></span> est musicienne et enseignante. Au cours des 30 dernières années, son étude du chant et des percussions grecs, balkaniques et moyen-orientaux l'a amenée à composer, à se produire et à partir en tournée avec de nombreux ensembles de musique du monde et de fusion de Toronto. Son amour pour l'enseignement et sa passion musicale s'étendent à tous les âges : elle est cheffe de chorale pour All Saints Greek Orthodox Church et pour la City Choir à Toronto, et professeure de musique de la maternelle à la huitième année à la Metamorphosis Greek Orthodox School. Elle tient également un studio de musique appelé Clapping Land, où elle accueille de jeunes enfants et compile de la musique du monde. Son disque <span class="italic">Sound Adventures -- Global Music for Children</span> a remporté le prix d'argent de la fondation Parent's Choice.</p>
+  <p class="summary-indent"><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le profil LinkedIn de Sophia Grigoriadis. Le lien s'ouvre dans un nouvel onglet" href="https://www.linkedin.com/in/sophia-grigoriadis-52015911/?originalSubdomain=ca">Sophia Grigoriadis</a></span> est musicienne et enseignante. Au cours des 30 dernières années, son étude du chant et des percussions grecs, balkaniques et moyen-orientaux l'a amenée à composer, à se produire et à partir en tournée avec de nombreux ensembles de musique du monde et de fusion de Toronto. Son amour pour l'enseignement et sa passion musicale s'étendent à tous les âges : elle est cheffe de chorale pour All Saints Greek Orthodox Church et pour la City Choir à Toronto, et professeure de musique de la maternelle à la huitième année à la Metamorphosis Greek Orthodox School. Elle tient également un studio de musique appelé Clapping Land, où elle accueille de jeunes enfants et compile de la musique du monde. Son disque <span class="italic">Sound Adventures -- Global Music for Children</span> a remporté le prix d'argent de la fondation Parent's Choice.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors-indent"></div>
@@ -898,7 +897,7 @@ export const contributorsPageFR = `
     <h4 class="summary-content summary-indent">BRENNA MACCRIMMON</h4>
   </summary>
   <article>
-  <p class="summary-indent">Basée à Toronto, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Brenna MacCrimmon's website. Link opens in a new tab" href="http://greengoatmusic.ca/">Brenna MacCrimmon</a></span> étudie et interprète des musiques turque et balkanique depuis le début des années 1980. Elle s'est produite en Turquie et à l'étranger avec Selim Sesler, Karsılama, Muammer Ketencoğlu et le groupe de rock expérimental Baba Zula. Elle a fait des tournées dans toute l'Europe avec le platiniste balkanique DJ Shantel et le Bucovina Club Orkestra. Brenna apparaît dans <span class="italic">Crossing the Bridge</span>, le documentaire de 2005 de Fatih Akın sur la scène musicale d'Istanbul. En 2010, Brenna a figuré dans la distribution de <span class="italic">Bobble</span> avec Bobby McFerri à Moscou. Au théâtre, elle a assuré la direction musicale de la production primée de Volcano, <span class="italic">Goodness</span>, et la musique d'une production de Soulpepper, <span class="italic">Wedding at Aulis</span>, de Sina Gilani. En plus de chanter avec Turkwaz, Brenna joue avec l'ensemble gréco-turc Meltemi, elle voyage beaucoup pour enseigner et se produire, et elle s'intéresse grandement aux ukulélés. Récemment, elle a été directrice de <span class="italic">Walk with Amal</span> de MabelleArts pour Luminato 2023.</p>
+  <p class="summary-indent">Basée à Toronto, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Brenna MacCrimmon. Le lien s'ouvre dans un nouvel onglet" href="http://greengoatmusic.ca/">Brenna MacCrimmon</a></span> étudie et interprète des musiques turque et balkanique depuis le début des années 1980. Elle s'est produite en Turquie et à l'étranger avec Selim Sesler, Karsılama, Muammer Ketencoğlu et le groupe de rock expérimental Baba Zula. Elle a fait des tournées dans toute l'Europe avec le platiniste balkanique DJ Shantel et le Bucovina Club Orkestra. Brenna apparaît dans <span class="italic">Crossing the Bridge</span>, le documentaire de 2005 de Fatih Akın sur la scène musicale d'Istanbul. En 2010, Brenna a figuré dans la distribution de <span class="italic">Bobble</span> avec Bobby McFerri à Moscou. Au théâtre, elle a assuré la direction musicale de la production primée de Volcano, <span class="italic">Goodness</span>, et la musique d'une production de Soulpepper, <span class="italic">Wedding at Aulis</span>, de Sina Gilani. En plus de chanter avec Turkwaz, Brenna joue avec l'ensemble gréco-turc Meltemi, elle voyage beaucoup pour enseigner et se produire, et elle s'intéresse grandement aux ukulélés. Récemment, elle a été directrice de <span class="italic">Walk with Amal</span> de MabelleArts pour Luminato 2023.</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors-indent"></div>
@@ -907,133 +906,139 @@ export const contributorsPageFR = `
     <h4 class="summary-content summary-indent">MARYEM HASSAN TOLLAR</h4>
   </summary>
   <article>
-  <p class="summary-indent"><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Read more about Maryem Hassan Tollar on Wikipedia. Link opens in a new tab" href="https://en.wikipedia.org/wiki/Maryem_Tollar">Maryem Hassan Tollar</a></span> est une chanteuse égypto-canadienne de renom, connue pour ses interprétations de musique du monde. Elle a prêté sa voix au générique de l'émission <span class="italic">La petite mosquée dans la prairie</span> sur CBC, et au tube bollywoodien d'A.R. Rahman intitulé <span class="italic">Mayya Mayya</span>. Mme Tollar s'est produite avec Tafelmusik, l'Orchestre symphonique de Winnipeg, le Gryphon Trio et Patricia O'Callaghan. Elle monte sur scène avec plusieurs groupes musicaux de Toronto, dont Al Qahwa et Turkwaz, ainsi qu'avec la conteuse Dawne McFarlane. À l'automne 2022, Mme Tollar est partie en tournée avec <span class="italic">The Cave</span> (livret de Tomson Highway, musique de John Millard, scénario de Martha Ross) et, en 2023, avec l'adaptation théâtrale du livre d'Ann-Marie MaDonald <span class="italic">Fall On Your Knees</span> (mise en scène d'Alisa Palmer, scénario d'Hannah Moscovitch). Mme Tollar a reçu le premier prix Johanna-Metcalf pour les arts de la scène en 2019.</p>
+  <p class="summary-indent"><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Lisez plus sur Maryem Hassan Tollar sur Wikipedia. Le lien s'ouvre dans un nouvel onglet" href="https://en.wikipedia.org/wiki/Maryem_Tollar">Maryem Hassan Tollar</a></span> est une chanteuse égypto-canadienne de renom, connue pour ses interprétations de musique du monde. Elle a prêté sa voix au générique de l'émission <span class="italic">La petite mosquée dans la prairie</span> sur CBC, et au tube bollywoodien d'A.R. Rahman intitulé <span class="italic">Mayya Mayya</span>. Mme Tollar s'est produite avec Tafelmusik, l'Orchestre symphonique de Winnipeg, le Gryphon Trio et Patricia O'Callaghan. Elle monte sur scène avec plusieurs groupes musicaux de Toronto, dont Al Qahwa et Turkwaz, ainsi qu'avec la conteuse Dawne McFarlane. À l'automne 2022, Mme Tollar est partie en tournée avec <span class="italic">The Cave</span> (livret de Tomson Highway, musique de John Millard, scénario de Martha Ross) et, en 2023, avec l'adaptation théâtrale du livre d'Ann-Marie MaDonald <span class="italic">Fall On Your Knees</span> (mise en scène d'Alisa Palmer, scénario d'Hannah Moscovitch). Mme Tollar a reçu le premier prix Johanna-Metcalf pour les arts de la scène en 2019.</p>
   </article>
 </details>
 <div class="svg-contributors"></div>
-<p>+ tous les êtres non humains qui ont contribué à nos enregistrements sur le terrain. Pour voir toutes les espèces identifiées par les membres de la communauté dans le milieu humide de Monahan, veuillez consulter le site <a target="_blank" rel="noopener noreferrer" aria-label="Visit iNaturalist page for Monahan Wetlands. Link opens in a new tab" href="https://www.inaturalist.org/places/monaghan-drain-eagleson-ponds">iNaturalist</a>.</p>
+<p>+ tous les êtres non humains qui ont contribué à nos enregistrements sur le terrain. Pour voir toutes les espèces identifiées par les membres de la communauté dans le milieu humide de Monahan, veuillez consulter le site <a target="_blank" rel="noopener noreferrer" aria-label="Visitez la page iNaturalist pour les zones humides de Monahan. Le lien s'ouvre dans un nouvel onglet" href="https://www.inaturalist.org/places/monaghan-drain-eagleson-ponds">iNaturalist</a>.</p>
 
 `;
 
 export const strings = [
-    { id: "langToggle", en: "FR", fr: "EN" },
-    { id: "curiousEarsTxt", en: "A Sound Piece</br> for Curious Ears", fr: "Une pièce sonore </br> pour oreilles curieuses " },
-    { id: "aboutH2", en: "ABOUT", fr: "À PROPOS DE" },
-    { id: "soundForCurious", en: "A sound piece for curious ears.", fr: "Une pièce sonore pour oreilles curieuses." },
-    {
-      id: "eachTimeYouClick",
-      en: "Each time you click BEGIN, you’ll hear a unique sound piece, collaged by our algorithm from 173 sound chapters. All these chapters are created by a group of <a href='#contributorsH2'>contributors</a>. You’ll hear everything from songs and poems to nature sounds, interviews and stories.",
-      fr: "Chaque fois que vous cliquez sur COMMENCER, vous découvrez une pièce sonore unique, composée par notre algorithme à partir de 173 chapitres sonores. Tous ces chapitres sont créés par un groupe diversifié de <a href='#contributorsH2'>contributrices et contributeurs</a>. Vous entendrez de tout : des chansons et des poèmes aux sons de la nature, en passant par des interviews et des histoires.",
-    },
-    {
-      id: "ByBringingTogether",
-      en: "By bringing together sounds by human and non-human beings MONAHAN creates an ever-evolving experience. You may hear a chapter you’ve heard before, but this time it’s next to something new.  Like the landscape around you, MONAHAN is always changing.",
-      fr: "En rassemblant des sons produits par des êtres humains et non humains, MONAHAN crée une expérience en perpétuel mouvement. Il se peut que vous entendiez un chapitre que vous avez déjà écouté, mais cette fois-ci à la suite de quelque chose de nouveau. Tout comme le paysage qui vous entoure, MONAHAN est en constante évolution.",
-    },
-    {
-      id: "experienceAnew",
-      en: "Experience the site anew with each visit through dozens of sounds and stories gathered for the Monahan wetlands.",
-      fr: "Découvrez le site à nouveau lors de chacune de vos visites grâce à des dizaines d'histoires et de sons recueillis pour le milieu humide de Monahan.",
-    },
-    {
-      id: "delveInto",
-      en: "Delve into sounds that explore movement, migration, story as medicine, plants as healers, voice, translation, and place.",
-      fr: "Plongez-vous dans une ambiance sonore qui explore le mouvement, la migration, les récits qui soulagent, les êtres non humains, les plantes qui guérissent, la voix, la traduction et le lieu.",
-    },
-  
-    { id: "monSpan", en: "MONAHAN", fr: "MONAHAN" },
-  
-    {
-      id: "pavedPaths",
-      en: "The paths around the site are paved and accessible, and include benches.",
-      fr: "Les sentiers autour du site sont pavés, accessibles et munis de bancs.",
-    },
-    {
-      id: "smartphoneQRAccess",
-      en: "With a smartphone and data access you can scan a QR code to experience the sound piece.",
-      fr: "Avec un téléphone intelligent et un accès aux données, vous pouvez scanner un code QR pour découvrir la pièce sonore.",
-    },
-    {
-      id: "qrCodeLocations",
-      en: "QR codes are on the main sign located near the bridge and on a selection of benches along the main path.",
-      fr: "Les codes QR se trouvent sur le panneau principal situé près du pont et sur le dossier de certains bancs le long du sentier principal.",
-    },
-    {
-      id: "benchQRCodes",
-      en: "The QR codes on the benches are installed on the backrests.",
-      fr: "On trouve les codes QR sur le dossier des bancs.",
-    },
-    { id: "noWashrooms", en: "There are no washrooms on site.", fr: "Il n’y a pas de toilettes sur le site." },
-  
-    { id: "howToListenH2", en: "HOW TO LISTEN", fr: "COMMENT ÉCOUTER" },
-    { id: "scanQR", en: "Scan the QR code", fr: "Scannez le code QR" },
-    { id: "arriveWebsite", en: "Arrive at the MONAHAN website", fr: "Accédez au site Web de MONAHAN" },
-    { id: "putHeadphones", en: "Put on your HEADPHONES", fr: "Mets tes ÉCOUTEURS" },
-    { id: "clickBegin", en: "Click BEGIN", fr: "Cliquez sur COMMENCER" },
-    { id: "contributorsH2", en: "CONTRIBUTORS", fr: "CONTRIBUTRICES ET CONTRIBUTEURS" },
-  
-    { id: "listenSoundPiece", en: "LISTEN to a personalized sound piece", fr: "ÉCOUTEZ une pièce sonore personnalisée" },
-    {
-      id: "listenAnywhere",
-      en: "You can listen to MONAHAN wherever you are. We suggest spending time outside while listening.",
-      fr: "Vous pouvez écouter MONAHAN en tous lieux. Nous vous suggérons de le faire à l’extérieur.",
-    },
-  
-    { id: "howitWorksH2", en: "HOW IT WORKS", fr: "COMMENT ÇA FONCTIONNE" },
-    { id: "whereToFindUsH2", en: "WHERE TO FIND US", fr: "POUR NOUS TROUVER" },
-    {
-      id: "visit",
-      en: "Visit the <a href='https://goo.gl/maps/jjCqS3aNJphNgZaE9' target='blank'>Monahan Wetlands</a> (or Monahan Drain) in Ottawa, Canada.",
-      fr: "Visitez le <a href='https://goo.gl/maps/jjCqS3aNJphNgZaE9' target='blank'>milieu humide de Monahan</a> (ou drain Monahan) à Ottawa, Canada.",
-    },
-    { id: "accessH2", en: "ACCESSIBILITY", fr: "ACCESSIBILITÉ" },
-    {
-      id: "finalThanks",
-      en: "Thank you for visiting MONAHAN.<br>We hope you will return for a different experience!",
-      fr: "Merci d’avoir visité MONAHAN.<br>Nous espérons que vous reviendrez pour une expérience différente!",
-    },
-  
-    {
-      id: "thanksSignageFabrication",
-      en: 'Thank you to <a href="https://dymech.ca/" target="_blank" rel="noopener noreferrer" aria-label="Visit Dymech website. Link opens in a new tab">Dymech</a> and <a href="https://beaconlite.ca/" target="_blank" rel="noopener noreferrer" aria-label="Visit Beacon Lite website. Link opens in a new tab">Beacon Lite</a> for fabricating the signage, and to <a href="https://www.affinityproductions.tv/" target="_blank" rel="noopener noreferrer" aria-label="Visit Affinity Production Group website. Link opens in a new tab">Affinity Production Group</a> for production support.',
-      fr: 'Merci à <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site web de Dymech. Le lien s"ouvre dans un nouvel onglet" href="https://dymech.ca/">Dymech</a> et <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site web de Beacon Lite. Le lien s"ouvre dans un nouvel onglet" href="https://beaconlite.ca/">Beacon Lite</a> pour la fabrication de la signalisation et à <a href="https://www.affinityproductions.tv/" target="_blank" rel="noopener noreferrer" aria-label="Visitez le site web de Affinity Production Group. Le lien s"ouvre dans un nouvel onglet">Affinity Production Group</a> pour le soutien à la production.',
-    },
-    {
-      id: "thanksKomiku",
-      en: 'Thank you to Komiku for "The place that never get old", retrieved from <a href="https://citizen-dj.labs.loc.gov/" target="_blank" rel="noopener noreferrer" aria-label="Visit Citizen DJ website at the Library of Congress. Link opens in a new tab">Citizen DJ</a>, Free Music Archive at the Library of Congress, Web Archives Division.',
-      fr: 'Merci à Komiku pour "The place that never get old", extrait de <a href="https://citizen-dj.labs.loc.gov/" target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web Citizen DJ de la Bibliothèque du Congrès. Le lien s\'ouvre dans un nouvel onglet">Citizen DJ</a>, site Web archivé Free Music Archive de la Bibliothèque du Congrès, Division des archives Web.',
-    },
-    
-    {
-      id: "hugeThanks",
-      en: "Huge thank you’s go out to:",
-      fr: "Un grand merci à :",
-    },
-    // { id: "volumeLower", en: "Lower Volume", fr: "Baisser le volume" },
-    // { id: "volumeRaise", en: "Raise Volume", fr: "Augmenter le volume" },
-    {
-      id: "cred",
-      en: "MONAHAN was produced by Grimm Pictures and commissioned by the <a href='https://ottawa.ca/en/arts-heritage-and-events/public-art-and-city-ottawa-art-collection/public-art' target='_blank' rel='noopener noreferrer' aria-label='Visit City of Ottawa’s Public Art Program website. Link opens in a new tab'>City of Ottawa’s Public Art Program</a>.",
-      fr: "MONAHAN a été produit par Grimm Pictures et commandé par le <a href='https://ottawa.ca/fr/arts-patrimoine-et-evenements/art-public-et-collection-dart-de-la-ville-dottawa/art-public' target='_blank' rel='noopener noreferrer' aria-label='Visitez le site du Programme d’art public de la Ville d’Ottawa. Le lien s'ouvre dans un nouvel onglet'>Programme d’art public de la Ville d’Ottawa</a>.",
-    },
-    
-    { id: "contact", en: "Contact: publicartprogram@ottawa.ca", fr: "Pour toutes questions : programmedartpublic@ottawa.ca" },
-    { id: "copyright", en: "©2024 All Rights Reserved", fr: "©2024 Tous droits réservés" },
-    { id: "cityArtCollection", en: "City of Ottawa Art Collection", fr: "Collection d'art de la ville d'Ottawa" },
-  ];
+  { id: "langToggle", en: "FR", fr: "EN" },
+  { id: "curiousEarsTxt", en: "A Sound Piece</br> for Curious Ears", fr: "Une pièce sonore </br> pour oreilles curieuses " },
+  { id: "aboutH2", en: "ABOUT", fr: "À PROPOS DE" },
+  { id: "soundForCurious", en: "A sound piece for curious ears.", fr: "Une pièce sonore pour oreilles curieuses." },
+  {
+    id: "eachTimeYouClick",
+    en: "Each time you click BEGIN, you’ll hear a unique sound piece, collaged by our algorithm from 173 sound chapters. All these chapters are created by a group of <a href='#contributorsH2'>contributors</a>. You’ll hear everything from songs and poems to nature sounds, interviews and stories.",
+    fr: "Chaque fois que vous cliquez sur COMMENCER, vous découvrez une pièce sonore unique, composée par notre algorithme à partir de 173 chapitres sonores. Tous ces chapitres sont créés par un groupe diversifié de <a href='#contributorsH2'>contributrices et contributeurs</a>. Vous entendrez de tout : des chansons et des poèmes aux sons de la nature, en passant par des interviews et des histoires.",
+  },
+  {
+    id: "ByBringingTogether",
+    en: "By bringing together sounds by human and non-human beings MONAHAN creates an ever-evolving experience. You may hear a chapter you’ve heard before, but this time it’s next to something new.  Like the landscape around you, MONAHAN is always changing.",
+    fr: "En rassemblant des sons produits par des êtres humains et non humains, MONAHAN crée une expérience en perpétuel mouvement. Il se peut que vous entendiez un chapitre que vous avez déjà écouté, mais cette fois-ci à la suite de quelque chose de nouveau. Tout comme le paysage qui vous entoure, MONAHAN est en constante évolution.",
+  },
+  {
+    id: "experienceAnew",
+    en: "Experience the site anew with each visit through dozens of sounds and stories gathered for the Monahan wetlands.",
+    fr: "Découvrez le site à nouveau lors de chacune de vos visites grâce à des dizaines d'histoires et de sons recueillis pour le milieu humide de Monahan.",
+  },
+  {
+    id: "delveInto",
+    en: "Delve into sounds that explore movement, migration, story as medicine, plants as healers, voice, translation, and place.",
+    fr: "Plongez-vous dans une ambiance sonore qui explore le mouvement, la migration, les récits qui soulagent, les êtres non humains, les plantes qui guérissent, la voix, la traduction et le lieu.",
+  },
 
-  export const ariaStrings = [
-    { id: "toggleLanguage", en: "Toggle Language", fr: "Changer de langue" },
-    { id: "accessibilityNav", en: "Accessibility Settings", fr: "Paramètres d'accessibilité" },
-    { id: "invertColoursBtn", en: "Invert Colors", fr: "Inverser les couleurs" },
-    { id: "monochromeBtn", en: "Monochrome", fr: "Monochrome" },
-    { id: "decreaseTextSizeBtn", en: "Decrease text size", fr: "Diminuer la taille du texte" },
-    { id: "increaseTextSizeBtn", en: "Increase text size", fr: "Augmenter la taille du texte" },
-    { id: "resetBtn", en: "Reset", fr: "Réinitialiser" },
-    { id: "play-button", en: "Begin/Play Audio", fr: "Commencer/Lire l'audio" },
-    { id: "skipBackwardButton", en: "Skip backwards 15 seconds", fr: "Reculer de 15 secondes" },
-    { id: "skipForwardButton", en: "Skip forward 30 seconds", fr: "Avancer de 30 secondes" },
-    { id: "lower-vol", en: "Lower volume", fr: "Baisser le volume" },
-    { id: "raise-vol", en: "Raise volume", fr: "Augmenter le volume" },
-    { id: "volume-slider", en: "Volume slider", fr: "Curseur de volume" },
-  ];
+  { id: "monSpan", en: "MONAHAN", fr: "MONAHAN" },
+
+  {
+    id: "pavedPaths",
+    en: "The paths around the site are paved and accessible, and include benches.",
+    fr: "Les sentiers autour du site sont pavés, accessibles et munis de bancs.",
+  },
+  {
+    id: "smartphoneQRAccess",
+    en: "With a smartphone and data access you can scan a QR code to experience the sound piece.",
+    fr: "Avec un téléphone intelligent et un accès aux données, vous pouvez scanner un code QR pour découvrir la pièce sonore.",
+  },
+  {
+    id: "qrCodeLocations",
+    en: "QR codes are on the main sign located near the bridge and on a selection of benches along the main path.",
+    fr: "Les codes QR se trouvent sur le panneau principal situé près du pont et sur le dossier de certains bancs le long du sentier principal.",
+  },
+  {
+    id: "benchQRCodes",
+    en: "The QR codes on the benches are installed on the backrests.",
+    fr: "On trouve les codes QR sur le dossier des bancs.",
+  },
+  { id: "noWashrooms", en: "There are no washrooms on site.", fr: "Il n’y a pas de toilettes sur le site." },
+
+  { id: "howToListenH2", en: "HOW TO LISTEN", fr: "COMMENT ÉCOUTER" },
+  { id: "scanQR", en: "Scan the QR code", fr: "Scannez le code QR" },
+  { id: "arriveWebsite", en: "Arrive at the MONAHAN website", fr: "Accédez au site Web de MONAHAN" },
+  { id: "putHeadphones", en: "Put on your HEADPHONES", fr: "Mets tes ÉCOUTEURS" },
+  { id: "clickBegin", en: "Click BEGIN", fr: "Cliquez sur COMMENCER" },
+  { id: "contributorsH2", en: "CONTRIBUTORS", fr: "CONTRIBUTRICES ET CONTRIBUTEURS" },
+
+  { id: "listenSoundPiece", en: "LISTEN to a personalized sound piece", fr: "ÉCOUTEZ une pièce sonore personnalisée" },
+  {
+    id: "listenAnywhere",
+    en: "You can listen to MONAHAN wherever you are. We suggest spending time outside while listening.",
+    fr: "Vous pouvez écouter MONAHAN en tous lieux. Nous vous suggérons de le faire à l’extérieur.",
+  },
+
+  { id: "howitWorksH2", en: "HOW IT WORKS", fr: "COMMENT ÇA FONCTIONNE" },
+  { id: "whereToFindUsH2", en: "WHERE TO FIND US", fr: "POUR NOUS TROUVER" },
+  {
+    id: "visit",
+    en: "Visit the <a href='https://goo.gl/maps/jjCqS3aNJphNgZaE9' target='blank'>Monahan Wetlands</a> (or Monahan Drain) in Ottawa, Canada.",
+    fr: "Visitez le <a href='https://goo.gl/maps/jjCqS3aNJphNgZaE9' target='blank'>milieu humide de Monahan</a> (ou drain Monahan) à Ottawa, Canada.",
+  },
+  { id: "accessH2", en: "ACCESSIBILITY", fr: "ACCESSIBILITÉ" },
+  {
+    id: "finalThanks",
+    en: "Thank you for visiting MONAHAN.<br>We hope you will return for a different experience!",
+    fr: "Merci d’avoir visité MONAHAN.<br>Nous espérons que vous reviendrez pour une expérience différente!",
+  },
+
+  {
+    id: "thanksSignageFabrication",
+    en: 'Thank you to <a href="https://dymech.ca/" target="_blank" rel="noopener noreferrer" aria-label="Visit Dymech website. Link opens in a new tab">Dymech</a> and <a href="https://beaconlite.ca/" target="_blank" rel="noopener noreferrer" aria-label="Visit Beacon Lite website. Link opens in a new tab">Beacon Lite</a> for fabricating the signage, and to <a href="https://www.affinityproductions.tv/" target="_blank" rel="noopener noreferrer" aria-label="Visit Affinity Production Group website. Link opens in a new tab">Affinity Production Group</a> for production support.',
+    fr: 'Merci à <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site web de Dymech. Le lien s"ouvre dans un nouvel onglet" href="https://dymech.ca/">Dymech</a> et <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site web de Beacon Lite. Le lien s"ouvre dans un nouvel onglet" href="https://beaconlite.ca/">Beacon Lite</a> pour la fabrication de la signalisation et à <a href="https://www.affinityproductions.tv/" target="_blank" rel="noopener noreferrer" aria-label="Visitez le site web de Affinity Production Group. Le lien s"ouvre dans un nouvel onglet">Affinity Production Group</a> pour le soutien à la production.',
+  },
+  {
+    id: "thanksKomiku",
+    en: 'Thank you to Komiku for "The place that never get old", retrieved from <a href="https://citizen-dj.labs.loc.gov/" target="_blank" rel="noopener noreferrer" aria-label="Visit Citizen DJ website at the Library of Congress. Link opens in a new tab">Citizen DJ</a>, Free Music Archive at the Library of Congress, Web Archives Division.',
+    fr: 'Merci à Komiku pour "The place that never get old", extrait de <a href="https://citizen-dj.labs.loc.gov/" target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web Citizen DJ de la Bibliothèque du Congrès. Le lien s\'ouvre dans un nouvel onglet">Citizen DJ</a>, site Web archivé Free Music Archive de la Bibliothèque du Congrès, Division des archives Web.',
+  },
+
+  {
+    id: "hugeThanks",
+    en: "Huge thank you’s go out to:",
+    fr: "Un grand merci à :",
+  },
+  // { id: "volumeLower", en: "Lower Volume", fr: "Baisser le volume" },
+  // { id: "volumeRaise", en: "Raise Volume", fr: "Augmenter le volume" },
+  {
+    id: "cred",
+    en: "MONAHAN was produced by Grimm Pictures and commissioned by the <a href='https://ottawa.ca/en/arts-heritage-and-events/public-art-and-city-ottawa-art-collection/public-art' target='_blank' rel='noopener noreferrer' aria-label='Visit City of Ottawa’s Public Art Program website. Link opens in a new tab'>City of Ottawa’s Public Art Program</a>.",
+    fr: "MONAHAN a été produit par Grimm Pictures et commandé par le <a href='https://ottawa.ca/fr/arts-patrimoine-et-evenements/art-public-et-collection-dart-de-la-ville-dottawa/art-public' target='_blank' rel='noopener noreferrer' aria-label='Visitez le site du Programme d’art public de la Ville d’Ottawa. Le lien s'ouvre dans un nouvel onglet'>Programme d’art public de la Ville d’Ottawa</a>.",
+  },
+
+  { id: "contact", en: "Contact: publicartprogram@ottawa.ca", fr: "Pour toutes questions : programmedartpublic@ottawa.ca" },
+  { id: "copyright", en: "©2024 All Rights Reserved", fr: "©2024 Tous droits réservés" },
+  { id: "cityArtCollection", en: "City of Ottawa Art Collection", fr: "Collection d'art de la ville d'Ottawa" },
+];
+
+export const ariaStrings = [
+  { id: "toggleLanguage", en: "Toggle Language - English is selected", fr: "Basculer la langue - Le Français est sélectionné" },
+  { id: "accessibilityNav", en: "Accessibility Settings", fr: "Paramètres d'accessibilité" },
+  { id: "invertColoursBtn", en: "Invert Colors", fr: "Inverser les couleurs" },
+  { id: "monochromeBtn", en: "Monochrome", fr: "Monochrome" },
+  { id: "decreaseTextSizeBtn", en: "Decrease text size", fr: "Diminuer la taille du texte" },
+  { id: "increaseTextSizeBtn", en: "Increase text size", fr: "Augmenter la taille du texte" },
+  { id: "resetBtn", en: "Reset", fr: "Réinitialiser" },
+  { id: "play-button", en: "Begin/Play Audio", fr: "Commencer/Lire l'audio" },
+  { id: "skipBackwardButton", en: "Skip backwards 15 seconds", fr: "Reculer de 15 secondes" },
+  { id: "skipForwardButton", en: "Skip forward 30 seconds", fr: "Avancer de 30 secondes" },
+  { id: "lower-vol", en: "Lower volume", fr: "Baisser le volume" },
+  { id: "raise-vol", en: "Raise volume", fr: "Augmenter le volume" },
+  { id: "volume-slider", en: "Volume slider", fr: "Curseur de volume" },
+  { id: "progress-container", en: "Playback progress", fr: "Progression de la lecture" },
+  { id: "curiousEarsTxt", en: "A Sound Piece for Curious Ears", fr: "Une pièce sonore pour oreilles curieuses" },
+  { id: "music_player", en: "Audio player", fr: "Lecteur audio" },
+  { id: "volume-container", en: "Volume control", fr: "Contrôle du volume" },
+  { id: "aboutH2Box", en: "About Monahan", fr: "À propos de Monahan" },
+  { id: "PondAltImg", en: "Outline of Monahan Pond", fr: "Contour de l'étang de Monahan" },
+];
