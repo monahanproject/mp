@@ -1029,7 +1029,7 @@ export const ariaStrings = [
   { id: "decreaseTextSizeBtn", en: "Decrease text size", fr: "Diminuer la taille du texte" },
   { id: "increaseTextSizeBtn", en: "Increase text size", fr: "Augmenter la taille du texte" },
   { id: "resetBtn", en: "Reset", fr: "Réinitialiser" },
-  { id: "play-button", en: "Begin/Play Audio", fr: "Commencer/Lire l'audio" },
+  { id: "play-button", en: "Begin audio", fr: "Commencer l'audio" },
   { id: "skipBackwardButton", en: "Skip backwards 15 seconds", fr: "Reculer de 15 secondes" },
   { id: "skipForwardButton", en: "Skip forward 30 seconds", fr: "Avancer de 30 secondes" },
   { id: "lower-vol", en: "Lower volume", fr: "Baisser le volume" },

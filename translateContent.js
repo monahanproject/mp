@@ -10,8 +10,10 @@ import {
   altStrings,
 } from "./translationStrings.js";
 import { toggleAriaPressed } from "./settingsmenu.js";
+import { SimpleAudioPlayer } from "./buildAudioplayer.js"; // Ensure the correct import if needed
 
 let lang = localStorage.getItem("lang") || "EN"; // Retrieve initial language setting
+
 
 function toggleLanguageAndStorePref() {
   console.log("toggled lang");
@@ -20,6 +22,7 @@ function toggleLanguageAndStorePref() {
   updateTextsBasedOnStoredLang();
   toggleAriaPressed(document.getElementById("toggleLanguage"));
 }
+
 
 function updateTextsBasedOnStoredLang() {
   updateLanguageLabel();
@@ -40,6 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
   updateTextsBasedOnStoredLang();
   document.querySelector("#toggleLanguage").addEventListener("click", toggleLanguageAndStorePref);
 });
+
 
 
 function updateLanguageLabel() {

@@ -60,6 +60,7 @@ export class SimpleAudioPlayer {
     this.playlistEnded = false;
   }
 
+  // findme
   initializeSVGIcons() {
     this.beginAgain = `<img id="begin-again" class="svg-icon" src="images/svg/beginAgain.svg" alt="Begin again">`;
     this.beginAgainInvert = `<img id="begin-again" class="svg-icon" src="images/svg/beginAgainInvert.svg" alt="Begin again">`;
@@ -154,13 +155,13 @@ export class SimpleAudioPlayer {
     if (this.skipBackwardButton) {
       this.skipBackwardButton.addEventListener("click", () => {
         this.handleSkipBackward();
-        setTimeout(() => this.skipBackwardButton.focus(), 0); // Add a small delay before focusing
+        // setTimeout(() => this.skipBackwardButton.focus(), 0); // Add a small delay before focusing
       });
     }
     if (this.skipForwardButton) {
       this.skipForwardButton.addEventListener("click", () => {
         this.handleSkipForward();
-        setTimeout(() => this.skipForwardButton.focus(), 0); // Add a small delay before focusing
+        // setTimeout(() => this.skipForwardButton.focus(), 0); // Add a small delay before focusing
       });
     }
     this.setupVolumeControlButtons();
@@ -219,7 +220,7 @@ export class SimpleAudioPlayer {
         }
         this.updateVolumeIndicator(VOLUME_MIN); // Update the UI to reflect the volume change
         this.toggleAriaPressed(this.lowerVolumeBtn); // Update aria-pressed
-        setTimeout(() => this.lowerVolumeBtn.focus(), 0); // Add a small delay before focusing
+        // setTimeout(() => this.lowerVolumeBtn.focus(), 0); // Add a small delay before focusing
       });
     }
 
@@ -232,7 +233,7 @@ export class SimpleAudioPlayer {
         }
         this.updateVolumeIndicator(VOLUME_MAX); // Update the UI to reflect the volume change
         this.toggleAriaPressed(this.raiseVolumeBtn); // Update aria-pressed
-        setTimeout(() => this.raiseVolumeBtn.focus(), 0); // Add a small delay before focusing
+        // setTimeout(() => this.raiseVolumeBtn.focus(), 0); // Add a small delay before focusing
       });
     }
   }
@@ -247,7 +248,7 @@ export class SimpleAudioPlayer {
     this.isPlaying = true;
     this.toggleButtonVisuals(true);
     this.toggleAriaPressed(document.getElementById("play-button"));
-    setTimeout(() => this.playButton.focus(), 0); // Add a small delay before focusing
+    // setTimeout(() => this.playButton.focus(), 0); // Add a small delay before focusing
   }
 
   handlePause() {
@@ -255,7 +256,7 @@ export class SimpleAudioPlayer {
     this.isPlaying = false;
     this.toggleButtonVisuals(false);
     this.toggleAriaPressed(document.getElementById("play-button"));
-    setTimeout(() => this.playButton.focus(), 0); // Add a small delay before focusing
+    // setTimeout(() => this.playButton.focus(), 0); // Add a small delay before focusing
   }
 
   handleEnded() {
@@ -485,16 +486,25 @@ export class SimpleAudioPlayer {
     const svgContainer = document.getElementById("play-button-svg-container");
     const playButtonTextContainer = document.getElementById("play-button-text-container");
     const svgToUse = isPlaying
-      ? isThemeInverted ? this.pausedInvertedSVG : this.pausedSVG
-      : isThemeInverted ? this.playingInvertedSVG : this.playingSVG;
+      ? isThemeInverted
+        ? this.pausedInvertedSVG
+        : this.pausedSVG
+      : isThemeInverted
+      ? this.playingInvertedSVG
+      : this.playingSVG;
 
     const currLang = localStorage.getItem("lang") || DEFAULT_LANG;
+
+    // Define the ARIA labels
+    const ariaLabelPlay = currLang === "EN" ? "Play audio" : "Commencer l'audio";
+    const ariaLabelStop = currLang === "EN" ? "Stop audio" : "Arrêter l'audio";
 
     if (isPlaying) {
       if (!this.playButton.classList.contains("playing")) {
         playButtonTextContainer.style.left = "50%";
         svgContainer.innerHTML = svgToUse;
         playButtonTextContainer.textContent = currLang === "EN" ? "STOP" : "ARRÊTER";
+        this.playButton.setAttribute("aria-label", ariaLabelStop); // Update the aria-label
       }
     } else {
       if (!this.playButton.classList.contains("paused")) {
@@ -504,6 +514,7 @@ export class SimpleAudioPlayer {
           playButtonTextContainer.style.left = "35%";
           svgContainer.innerHTML = svgToUse;
           playButtonTextContainer.textContent = currLang === "EN" ? "PLAY" : "COMMENCER";
+          this.playButton.setAttribute("aria-label", ariaLabelPlay); // Update the aria-label
         }
       }
     }

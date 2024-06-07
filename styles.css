@@ -32,7 +32,42 @@
   --white: rgb(255, 255, 255);
   --base-font-size: 6.9vw;
   font-size: 16px; /* Default font size */
+  --focus-color-light: #234e44; /* Focus color for light background */
+  --focus-color-dark: #bfffc2;  /* Focus color for dark background */
+  --focus-color: var(--focus-color-dark); /* Default focus color */
+  --nav-focus-color: #ff9900; /* Focus color for nav buttons */
+
+
 }
+  .inverted {
+    --focus-color-light: #234e44; /* Focus color for light background when inverted */
+    --focus-color-dark: #bfffc2;  /* Focus color for dark background when inverted */
+  }
+  
+  :focus {
+    outline: 1px solid var(--focus-color);
+    padding: 1px;
+    outline-offset: 2px;
+    border-radius: 2%;
+  }
+
+  button:focus, .volume-icon:focus {
+    outline: 1px solid var(--focus-color);
+    outline-offset: 2px;
+  }
+
+ .play-button:focus {
+    outline: 1px solid var(--focus-color);
+    outline-offset: 0 30px;
+  }
+
+
+
+  nav .navIcons:focus {
+    outline: 1px solid var(--nav-focus-color);
+    outline-offset: 2px;
+  }
+
 
 *,
 *::before,
@@ -883,8 +918,8 @@ li {
 }
 
 #play-button:focus {
-  outline: 0 dashed var(--focusgreen);
-  outline-offset: 2px;
+  /* outline: 0 dashed var(--focusgreen); */
+  /* outline-offset: 2px; */
 }
 
 #play-button:hover {
@@ -2019,10 +2054,7 @@ article > p {
   display: none;
 }
 
-:focus {
-  outline: 2px dashed var(--focusgreen);
-  outline-offset: 2px;
-}
+
 
 :active {
   outline: 2px dashed var(--lightgreen);

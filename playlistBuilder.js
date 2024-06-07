@@ -156,7 +156,7 @@ function initializeEnsureRules(rules, fixedRules = []) {
 export function logRuleApplication(ruleNumber, trackName, logMessage, isApplied, ruleType) {
   const ruleStatus = isApplied ? "passed" : "failed";
   const statusIcon = isApplied ? "🌱" : "🫧";
-  console.log(`${statusIcon} R${ruleNumber} ${ruleStatus} ${trackName} ${logMessage}`);
+  // console.log(`${statusIcon} R${ruleNumber} ${ruleStatus} ${trackName} ${logMessage}`);
 }
 
 /**

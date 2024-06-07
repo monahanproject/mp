@@ -8,12 +8,24 @@ let settingsBtn, monochromeBtn, increaseTextSizeBtn, decreaseTextSizeBtn, resetB
 let isMonochrome = false;
 let currentFocusableElement; // Add this variable to keep track of the current focusable element
 
-
+const sections = [
+  { id: "landingPage", normalFocusColor: "var(--focus-color-light)", invertedFocusColor: "var(--focus-color-dark)" },
+  { id: "curiousEarsPage", normalFocusColor: "var(--focus-color-dark)", invertedFocusColor: "var(--focus-color-light)" },
+  { id: "playerPage", normalFocusColor: "var(--focus-color-light)", invertedFocusColor: "var(--focus-color-dark)" },
+  { id: "aboutPage", normalFocusColor: "var(--focus-color-dark)", invertedFocusColor: "var(--focus-color-light)" },
+  { id: "howToListenPage", normalFocusColor: "var(--focus-color-light)", invertedFocusColor: "var(--focus-color-dark)" },
+  { id: "howItWorksPage", normalFocusColor: "var(--focus-color-dark)", invertedFocusColor: "var(--focus-color-light)" },
+  { id: "whereToFindUsPage", normalFocusColor: "var(--focus-color-light)", invertedFocusColor: "var(--focus-color-dark)" },
+  { id: "contributorsPage", normalFocusColor: "var(--focus-color-dark)", invertedFocusColor: "var(--focus-color-light)" },
+  { id: "productionTeamPage", normalFocusColor: "var(--focus-color-light)", invertedFocusColor: "var(--focus-color-dark)" },
+  { id: "thanksPage", normalFocusColor: "var(--focus-color-dark)", invertedFocusColor: "var(--focus-color-light)" },
+];
 
 /**
  * Initializes the application.
  */
 function init() {
+  console.log("Initializing the application...");
   cacheDOMElements();
   bindEvents();
   replaceSvgContent();
@@ -21,7 +33,19 @@ function init() {
   closeMenu(); // Ensure the menu is closed by default
   handleResize();
   replaceSvgContent();
+
+  // Initialize focus color on page load based on the visible section
+  const visibleSection = document.querySelector("section:focus") || document.querySelector("section"); // Get the current focused section or the first section if none are focused
+  if (visibleSection) {
+    console.log("Initial visible section:", visibleSection.id);
+    updateFocusColor(visibleSection.id);
+  } else {
+    console.warn("No visible section found");
+  }
 }
+
+
+
 
 /**
  * Caches the DOM elements for later use.
@@ -50,6 +74,11 @@ function bindEvents() {
   settingsBtn.addEventListener("keydown", handleMenuButtonKeydown);
   const menuItems = document.querySelectorAll("#slidein [role='menuitem']");
   menuItems.forEach((item) => item.addEventListener("keydown", handleMenuItemKeydown));
+  document.querySelectorAll("section").forEach(section => {
+    section.addEventListener("focusin", () => {
+      updateFocusColor(section.id);
+    });
+  });
 }
 
 /**
@@ -71,9 +100,22 @@ export function toggleAriaPressed(element) {
   element.setAttribute("aria-pressed", !isPressed);
 }
 
-// document.addEventListener('focusin', (event) => {
-//   console.log('Focused element:', event.target);
-// });
+/**
+ * Updates the focus color based on the section and inverted state.
+ */
+function updateFocusColor(sectionId) {
+  console.log("Updating focus color for section:", sectionId);
+  const section = sections.find(s => s.id === sectionId);
+  if (section) {
+    const focusColor = isInverted ? section.invertedFocusColor : section.normalFocusColor;
+    console.log("New focus color:", focusColor);
+    document.documentElement.style.setProperty("--focus-color", focusColor);
+  } else {
+    console.warn("Section not found for focus color update:", sectionId);
+  }
+}
+
+
 
 function handleResize() {
   var whereToFindUsPage = document.getElementById("whereToFindUsPageContent");
@@ -119,7 +161,6 @@ function handleResize() {
     }
   }
 }
-
 
 function replaceSvgContent() {
   const isDesktop = window.matchMedia("(min-width: 900px)").matches;
@@ -207,7 +248,9 @@ function toggleSvgBackgrounds() {
  */
 function swapColors() {
   isInverted = !isInverted;
+  console.log("Swapping colors, isInverted:", isInverted);
   setState(isInverted);
+  document.documentElement.classList.toggle('inverted', isInverted); // Add or remove the 'inverted' class on the root element
   updateCSSVariables();
   const transcriptContainer = document.getElementById("transcriptContainer");
   transcriptContainer.classList.toggle("invert-colors", isInverted);
@@ -215,6 +258,13 @@ function swapColors() {
   toggleImageSources();
   toggleSvgBackgrounds();
   toggleAriaPressed(invertColoursBtn);
+
+  // Update focus color based on the current section
+  const currentSection = document.querySelector("section:focus, section"); // Get the current focused section or the first section if none are focused
+  if (currentSection) {
+    console.log("Current section on color swap:", currentSection.id);
+    updateFocusColor(currentSection.id);
+  }
 }
 
 /**
@@ -227,6 +277,7 @@ function updateCSSVariables() {
   root.style.setProperty("--black", isInverted ? "rgb(0, 0, 0)" : "rgb(255, 255, 255)");
   root.style.setProperty("--white", isInverted ? "rgb(255, 255, 255)" : "rgb(0, 0, 0)");
   root.style.setProperty("--grey", isInverted ? "rgb(122, 122, 122)" : "rgb(35, 78, 68)");
+  // Note: The focus color will be set in the updateFocusColor function
 }
 
 /**
