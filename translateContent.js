@@ -1,25 +1,32 @@
 import { getLangState, setLangState } from "./state.js";
-import { productionPageEN, productionPageFR, contributorsPageEN, contributorsPageFR, strings, ariaStrings } from "./translationStrings.js";
+import {
+  productionPageEN,
+  productionPageFR,
+  contributorsPageEN,
+  contributorsPageFR,
+  strings,
+  buttonStrings,
+  ariaStrings,
+  altStrings,
+} from "./translationStrings.js";
 import { toggleAriaPressed } from "./settingsmenu.js";
 
 let lang = localStorage.getItem("lang") || "EN"; // Retrieve initial language setting
 
 function toggleLanguageAndStorePref() {
   console.log("toggled lang");
-  lang = getLangState() === "EN" ? "FR" : "EN"; // Toggle the language
-  setLangState(lang); // Update language in localStorage
-  updateTextsBasedOnStoredLang(); 
+  lang = getLangState() === "EN" ? "FR" : "EN";
+  setLangState(lang);
+  updateTextsBasedOnStoredLang();
   toggleAriaPressed(document.getElementById("toggleLanguage"));
-  changeAriaLabels(); // Update aria-label attributes based on new language
-  // announceLangOrLangChange(); 
 }
 
 function updateTextsBasedOnStoredLang() {
   updateLanguageLabel();
   updateContributorsAndTeamTextForLang();
-  adjustFontSizeBasedOnLang("play-button-text-container");
-  updateAllButtonsAndStringsTxt(); 
+  updateAllButtonsAndStringsTxt();
   changeAriaLabels();
+  changeAltTexts();
   updatePageLang(); // Update the lang attribute of the HTML tag
 
   if (lang === "FR") {
@@ -30,21 +37,34 @@ function updateTextsBasedOnStoredLang() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  updateTextsBasedOnStoredLang(); 
+  updateTextsBasedOnStoredLang();
   document.querySelector("#toggleLanguage").addEventListener("click", toggleLanguageAndStorePref);
-  changeAriaLabels(); // Update aria-labels on initial load
-  // announceLangOrLangChange(); 
 });
+
 
 function updateLanguageLabel() {
   const langToggleButton = document.getElementById("langToggle");
-  if (langToggleButton) {
-    const newSrc = lang === "EN" ? "images/svg/FR.svg" : "images/svg/EN.svg";
+  const toggleLanguageButton = document.getElementById("toggleLanguage");
+  
+  if (langToggleButton && toggleLanguageButton) {
+    const isFrench = lang === "FR";
+    const newSrc = isFrench ? "images/svg/EN.svg" : "images/svg/FR.svg";
+    
     langToggleButton.src = `${newSrc}?${new Date().getTime()}`; // Prevent caching
+    
+    toggleLanguageButton.setAttribute("lang", isFrench ? "fr-CA" : "en-CA");
+    // toggleLanguageButton.setAttribute("aria-label", isFrench ? "Consulter le site en français" : "Switch to English");
   } else {
-    console.error("Language toggle image not found");
+    if (!langToggleButton) {
+      console.error("Language toggle image not found");
+    }
+    if (!toggleLanguageButton) {
+      console.error("Toggle language button not found");
+    }
   }
 }
+
+
 
 function updateContributorsAndTeamTextForLang() {
   const contributorsPage = document.getElementById("contributorsTeamPageInner");
@@ -72,22 +92,25 @@ function changeEachString(string) {
   const element = document.getElementById(string.id);
   if (element) {
     element.innerHTML = lang === "FR" ? string.fr : string.en;
-    adjustFontSizeBasedOnLang(string.id); 
+    adjustFontSizeBasedOnLang(string.id);
   } else {
     console.error(`Element with ID '${string.id}' not found.`);
   }
 }
 
 function changeEachBtnString(string) {
-  const element = document.querySelector("#" + string.id);
+  const element = document.getElementById(string.id);
   if (element) {
     element.innerHTML = lang === "FR" ? string.fr : string.en;
-  } else {
   }
 }
 
 function changeAriaLabels() {
   ariaStrings.forEach(changeAriaLabel);
+}
+
+function changeAltTexts() {
+  altStrings.forEach(changeAltText);
 }
 
 function changeAriaLabel(string) {
@@ -99,17 +122,22 @@ function changeAriaLabel(string) {
   }
 }
 
+function changeAltText(string) {
+  const element = document.getElementById(string.id);
+  if (element) {
+    console.log(element);
+    const isFrench = lang === "FR";
+    element.setAttribute("alt", isFrench ? string.fr : string.en);
+  } else {
+    console.error(`Element with ID '${string.id}' not found for alt-text update.`);
+  }
+}
+
 function updatePageLang() {
   document.documentElement.setAttribute("lang", lang === "EN" ? "en" : "fr");
 }
 
-const buttonStrings = [
-  { id: "invertColorsTxt", en: "Invert Colours", fr: "Inverser les couleurs" },
-  { id: "textSizeTxt", en: "Text Size", fr: "Taille du Texte" },
-  { id: "resetBtn", en: "Reset", fr: "Réinitialiser" },
-  { id: "transcriptButton", en: "TRANSCRIPT", fr: "TRANSCRIPTION" },
-  { id: "play-button-text-container", en: "BEGIN", fr: "COMMENCER" },
-];
+
 
 const originalFontSizes = {};
 
@@ -143,17 +171,3 @@ function adjustFontSizeBasedOnLang(elementId) {
     }
   }
 }
-
-// function announceCurrentLanguage() {
-//   const ariaLiveRegion = document.getElementById("statusMessage");
-//   if (ariaLiveRegion) {
-//     ariaLiveRegion.textContent = lang === "EN" ? "Toggle Language - English is selected" : "Basculer la langue - Le Français est sélectionné";
-//   }
-// }
-
-// function announceLangOrLangChange() {
-//   const ariaLiveRegion = document.getElementById("statusMessage");
-//   if (ariaLiveRegion) {
-//     ariaLiveRegion.textContent = lang === "EN" ? "Toggle Language - English is selected" : "Basculer la langue - Le Français est sélectionné";
-//   }
-// }
