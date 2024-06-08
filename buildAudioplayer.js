@@ -1,6 +1,8 @@
 import { curatedTracklist, initializeApp } from "./play.js";
 import { getState, setState, getLangState, setLangState, updateAriaStatusMessage } from "./state.js";
 import { Transcript } from "./transcriptMaker.js";
+// import { updatePlayButtonText } from "./translateContent.js";
+
 
 const THEME_INVERTED_KEY = "themeInverted";
 const DEFAULT_LANG = "EN";
@@ -475,17 +477,16 @@ export class SimpleAudioPlayer {
       };
     });
   }
-
-  updatePlayButtonText(text) {
+  updatePlayButtonText() {
     const playButtonTextContainer = document.getElementById("play-button-text-container");
-    if (playButtonTextContainer) playButtonTextContainer.textContent = text;
-  }
-
-  toggleButtonVisuals(isPlaying) {
-    const isThemeInverted = getState(); // This will initialize isInverted based on localStorage
+    const isThemeInverted = getState();
     const svgContainer = document.getElementById("play-button-svg-container");
-    const playButtonTextContainer = document.getElementById("play-button-text-container");
-    const svgToUse = isPlaying
+    const currLang = getLangState();
+
+    const ariaLabelPlay = currLang === "EN" ? "Play audio" : "Commencer l'audio";
+    const ariaLabelStop = currLang === "EN" ? "Stop audio" : "Arrêter l'audio";
+
+    const svgToUse = this.isPlaying
       ? isThemeInverted
         ? this.pausedInvertedSVG
         : this.pausedSVG
@@ -493,31 +494,22 @@ export class SimpleAudioPlayer {
       ? this.playingInvertedSVG
       : this.playingSVG;
 
-    const currLang = localStorage.getItem("lang") || DEFAULT_LANG;
-
-    // Define the ARIA labels
-    const ariaLabelPlay = currLang === "EN" ? "Play audio" : "Commencer l'audio";
-    const ariaLabelStop = currLang === "EN" ? "Stop audio" : "Arrêter l'audio";
-
-    if (isPlaying) {
-      if (!this.playButton.classList.contains("playing")) {
-        playButtonTextContainer.style.left = "50%";
-        svgContainer.innerHTML = svgToUse;
-        playButtonTextContainer.textContent = currLang === "EN" ? "STOP" : "ARRÊTER";
-        this.playButton.setAttribute("aria-label", ariaLabelStop); // Update the aria-label
-      }
+    if (this.isPlaying) {
+      playButtonTextContainer.style.left = "50%";
+      svgContainer.innerHTML = svgToUse;
+      playButtonTextContainer.textContent = currLang === "EN" ? "STOP" : "ARRÊTER";
+      this.playButton.setAttribute("aria-label", ariaLabelStop);
     } else {
-      if (!this.playButton.classList.contains("paused")) {
-        if (!this.firstPlayDone) {
-          // we're in a begin state
-        } else {
-          playButtonTextContainer.style.left = "35%";
-          svgContainer.innerHTML = svgToUse;
-          playButtonTextContainer.textContent = currLang === "EN" ? "PLAY" : "COMMENCER";
-          this.playButton.setAttribute("aria-label", ariaLabelPlay); // Update the aria-label
-        }
-      }
+      playButtonTextContainer.style.left = "40%";
+      svgContainer.innerHTML = svgToUse;
+      playButtonTextContainer.textContent = currLang === "EN" ? "PLAY" : "COMMENCER";
+      this.playButton.setAttribute("aria-label", ariaLabelPlay);
     }
+  }
+
+  toggleButtonVisuals(isPlaying) {
+    this.isPlaying = isPlaying;
+    this.updatePlayButtonText();
     this.playButton.classList.toggle("playing", isPlaying);
     this.playButton.classList.toggle("paused", !isPlaying);
   }

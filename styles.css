@@ -43,27 +43,33 @@
     --focus-color-light: #234e44; /* Focus color for light background when inverted */
     --focus-color-dark: #bfffc2;  /* Focus color for dark background when inverted */
   }
+
+
+  /* Hide focus outlines by default */
+:focus {
+  outline: none;
+}
   
-  :focus {
+.show-focus-outline :focus {
     outline: 1px solid var(--focus-color);
     padding: 1px;
     outline-offset: 2px;
     border-radius: 2%;
   }
 
-  button:focus, .volume-icon:focus {
+  .show-focus-outline button:focus, .volume-icon:focus {
     outline: 1px solid var(--focus-color);
     outline-offset: 2px;
   }
 
- .play-button:focus {
+  .show-focus-outline .play-button:focus {
     outline: 1px solid var(--focus-color);
     outline-offset: 0 30px;
   }
 
 
 
-  nav .navIcons:focus {
+  .show-focus-outline nav .navIcons:focus {
     outline: 1px solid var(--nav-focus-color);
     outline-offset: 2px;
   }

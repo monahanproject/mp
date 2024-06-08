@@ -1,5 +1,17 @@
 import { getState, setState, updateAriaStatusMessage } from "./state.js";
 
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Tab' || e.key.startsWith('Arrow')) {
+    document.body.classList.add('show-focus-outline');
+  }
+});
+
+document.addEventListener('mousedown', function() {
+  document.body.classList.remove('show-focus-outline');
+});
+
+
 // Initialization
 document.addEventListener("DOMContentLoaded", init);
 

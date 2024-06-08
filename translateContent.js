@@ -1,4 +1,4 @@
-import { getLangState, setLangState } from "./state.js";
+import { getLangState, setLangState, getState } from "./state.js";
 import {
   productionPageEN,
   productionPageFR,
@@ -10,10 +10,10 @@ import {
   altStrings,
 } from "./translationStrings.js";
 import { toggleAriaPressed } from "./settingsmenu.js";
-import { SimpleAudioPlayer } from "./buildAudioplayer.js"; // Ensure the correct import if needed
+import { initializeApp } from "./play.js";
 
 let lang = localStorage.getItem("lang") || "EN"; // Retrieve initial language setting
-
+let audioPlayerInstance; // Define audioPlayerInstance in a scope accessible to all functions
 
 function toggleLanguageAndStorePref() {
   console.log("toggled lang");
@@ -22,7 +22,6 @@ function toggleLanguageAndStorePref() {
   updateTextsBasedOnStoredLang();
   toggleAriaPressed(document.getElementById("toggleLanguage"));
 }
-
 
 function updateTextsBasedOnStoredLang() {
   updateLanguageLabel();
@@ -37,25 +36,35 @@ function updateTextsBasedOnStoredLang() {
     playButtonTextContainer.style.left = "40%";
     adjustFontSizeBasedOnLang("play-button-text-container");
   }
+
+  if (audioPlayerInstance) {
+    updatePlayButtonText(audioPlayerInstance);
+    if (audioPlayerInstance.transcript) {
+      updateTranscript(audioPlayerInstance.transcript);
+    }
+  }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  updateTextsBasedOnStoredLang();
-  document.querySelector("#toggleLanguage").addEventListener("click", toggleLanguageAndStorePref);
+document.addEventListener("DOMContentLoaded", async () => {
+  try {
+    audioPlayerInstance = await initializeApp(); // Instantiate the audio player and assign to audioPlayerInstance
+    updateTextsBasedOnStoredLang();
+    document.querySelector("#toggleLanguage").addEventListener("click", toggleLanguageAndStorePref);
+  } catch (error) {
+    console.error("Error initializing the application:", error);
+  }
 });
-
-
 
 function updateLanguageLabel() {
   const langToggleButton = document.getElementById("langToggle");
   const toggleLanguageButton = document.getElementById("toggleLanguage");
-  
+
   if (langToggleButton && toggleLanguageButton) {
     const isFrench = lang === "FR";
     const newSrc = isFrench ? "images/svg/EN.svg" : "images/svg/FR.svg";
-    
+
     langToggleButton.src = `${newSrc}?${new Date().getTime()}`; // Prevent caching
-    
+
     toggleLanguageButton.setAttribute("lang", isFrench ? "fr-CA" : "en-CA");
     // toggleLanguageButton.setAttribute("aria-label", isFrench ? "Consulter le site en français" : "Switch to English");
   } else {
@@ -67,8 +76,6 @@ function updateLanguageLabel() {
     }
   }
 }
-
-
 
 function updateContributorsAndTeamTextForLang() {
   const contributorsPage = document.getElementById("contributorsTeamPageInner");
@@ -96,7 +103,7 @@ function changeEachString(string) {
   const element = document.getElementById(string.id);
   if (element) {
     element.innerHTML = lang === "FR" ? string.fr : string.en;
-    adjustFontSizeBasedOnLang(string.id);
+    adjustFontSizeBasedOnLang(string.id); // Adjust font size for each string element
   } else {
     console.error(`Element with ID '${string.id}' not found.`);
   }
@@ -106,6 +113,7 @@ function changeEachBtnString(string) {
   const element = document.getElementById(string.id);
   if (element) {
     element.innerHTML = lang === "FR" ? string.fr : string.en;
+    adjustFontSizeBasedOnLang(string.id); // Adjust font size for each button element
   }
 }
 
@@ -141,8 +149,6 @@ function updatePageLang() {
   document.documentElement.setAttribute("lang", lang === "EN" ? "en" : "fr");
 }
 
-
-
 const originalFontSizes = {};
 
 function adjustFontSizeBasedOnLang(elementId) {
@@ -175,3 +181,5 @@ function adjustFontSizeBasedOnLang(elementId) {
     }
   }
 }
+
+
