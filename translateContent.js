@@ -17,15 +17,31 @@ let lang = localStorage.getItem("lang") || "EN"; // Retrieve initial language se
 function toggleLanguageAndStorePref() {
   console.log("toggled lang");
   lang = getLangState() === "EN" ? "FR" : "EN";
+  console.log("New lang:", lang);
   setLangState(lang);
   updateTextsBasedOnStoredLang();
   toggleAriaPressed(document.getElementById("toggleLanguage"));
 
   // Update the transcript display based on the selected language
   if (audioPlayer) {
+    console.log("Updating transcript display and play button visuals.");
     audioPlayer.updateTranscriptDisplay();
+    audioPlayer.toggleButtonVisuals(audioPlayer.isPlaying); // Ensure the play button displays the correct text
+    
+    // Ensure the transcript is hidden initially
+    audioPlayer.transcript.transcriptContainer.style.display = "none";
+    audioPlayer.transcript.transcriptVisible = false;
+    const transcriptButton = document.getElementById("transcriptButton");
+    if (transcriptButton) {
+      transcriptButton.textContent = lang === "EN" ? "Show Transcript" : "Afficher la Transcription";
+    }
+  } else {
+    console.log("audioPlayer is not defined.");
   }
 }
+
+
+
 
 function updateTextsBasedOnStoredLang() {
   updateLanguageLabel();
@@ -42,7 +58,11 @@ function updateTextsBasedOnStoredLang() {
   }
 
   if (audioPlayer) {
+    console.log("Updating transcript display and play button visuals in updateTextsBasedOnStoredLang.");
     audioPlayer.updateTranscriptDisplay();
+    audioPlayer.toggleButtonVisuals(audioPlayer.isPlaying); // Ensure the play button displays the correct text
+  } else {
+    console.log("audioPlayer is not defined in updateTextsBasedOnStoredLang.");
   }
 }
 

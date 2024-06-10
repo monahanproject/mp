@@ -507,35 +507,34 @@ export class SimpleAudioPlayer {
       : isThemeInverted
       ? this.playingInvertedSVG
       : this.playingSVG;
-
+  
     const currLang = localStorage.getItem("lang") || DEFAULT_LANG;
-
+  
     // Define the ARIA labels
     const ariaLabelPlay = currLang === "EN" ? "Play audio" : "Commencer l'audio";
     const ariaLabelStop = currLang === "EN" ? "Stop audio" : "Arrêter l'audio";
-
+  
+    console.log("toggleButtonVisuals: isPlaying =", isPlaying, "currLang =", currLang);
+  
     if (isPlaying) {
-      if (!this.playButton.classList.contains("playing")) {
-        playButtonTextContainer.style.left = "50%";
-        svgContainer.innerHTML = svgToUse;
-        playButtonTextContainer.textContent = currLang === "EN" ? "STOP" : "ARRÊTER";
-        this.playButton.setAttribute("aria-label", ariaLabelStop); // Update the aria-label
-      }
+      playButtonTextContainer.style.left = "50%";
+      svgContainer.innerHTML = svgToUse;
+      playButtonTextContainer.textContent = currLang === "EN" ? "STOP" : "ARRÊTER";
+      console.log("Setting play button text to:", playButtonTextContainer.textContent);
+      this.playButton.setAttribute("aria-label", ariaLabelStop); // Update the aria-label
     } else {
-      if (!this.playButton.classList.contains("paused")) {
-        if (!this.firstPlayDone) {
-          // we're in a begin state
-        } else {
-          playButtonTextContainer.style.left = "40%";
-          svgContainer.innerHTML = svgToUse;
-          playButtonTextContainer.textContent = currLang === "EN" ? "PLAY" : "COMMENCER";
-          this.playButton.setAttribute("aria-label", ariaLabelPlay); // Update the aria-label
-        }
-      }
+      playButtonTextContainer.style.left = "40%";
+      svgContainer.innerHTML = svgToUse;
+      playButtonTextContainer.textContent = currLang === "EN" ? "PLAY" : "COMMENCER";
+      console.log("Setting play button text to:", playButtonTextContainer.textContent);
+      this.playButton.setAttribute("aria-label", ariaLabelPlay); // Update the aria-label
     }
+  
     this.playButton.classList.toggle("playing", isPlaying);
     this.playButton.classList.toggle("paused", !isPlaying);
   }
+  
+
 }
 
 // Scroll to a specific element on page load if indicated in localStorage
