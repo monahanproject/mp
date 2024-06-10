@@ -240,6 +240,7 @@ export class SimpleAudioPlayer {
   }
 
   handlePlay() {
+    console.log("playing");
     const toggleLanguageBtn = document.getElementById("toggleLanguage");
     if (toggleLanguageBtn) {
       // toggleLanguageBtn.classList.add("hidden");
@@ -424,7 +425,7 @@ export class SimpleAudioPlayer {
         }
         this.toggleButtonVisuals(true); // Update UI to show playing state.
       } else {
-        console.log("double pause.");
+        console.log("pause.");
         this.globalAudioElement.pause();
       }
     } else {
@@ -435,6 +436,7 @@ export class SimpleAudioPlayer {
   playTrack(index) {
     return new Promise((resolve, reject) => {
       const track = this.tracklist[index];
+      console.log(track);
       this.globalAudioElement.src = track.url;
 
       this.globalAudioElement

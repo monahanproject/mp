@@ -47,7 +47,7 @@ function updateTextsBasedOnStoredLang() {
 
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    audioPlayerInstance = await initializeApp(); // Instantiate the audio player and assign to audioPlayerInstance
+    // audioPlayerInstance = await initializeApp(); // Instantiate the audio player and assign to audioPlayerInstance
     updateTextsBasedOnStoredLang();
     document.querySelector("#toggleLanguage").addEventListener("click", toggleLanguageAndStorePref);
   } catch (error) {
