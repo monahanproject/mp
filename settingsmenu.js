@@ -116,11 +116,11 @@ export function toggleAriaPressed(element) {
  * Updates the focus color based on the section and inverted state.
  */
 function updateFocusColor(sectionId) {
-  console.log("Updating focus color for section:", sectionId);
+  // console.log("Updating focus color for section:", sectionId);
   const section = sections.find(s => s.id === sectionId);
   if (section) {
     const focusColor = isInverted ? section.invertedFocusColor : section.normalFocusColor;
-    console.log("New focus color:", focusColor);
+    // console.log("New focus color:", focusColor);
     document.documentElement.style.setProperty("--focus-color", focusColor);
   } else {
     console.warn("Section not found for focus color update:", sectionId);

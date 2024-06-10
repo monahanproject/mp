@@ -2,7 +2,6 @@ import { curatedTracklist, initializeApp } from "./play.js";
 import { getState, setState, getLangState, setLangState, updateAriaStatusMessage } from "./state.js";
 import { Transcript } from "./transcriptMaker.js";
 
-
 const THEME_INVERTED_KEY = "themeInverted";
 const DEFAULT_LANG = "EN";
 const DEFAULT_VOLUME = 75;
@@ -35,6 +34,9 @@ export class SimpleAudioPlayer {
     this.remainingTime = 0;
     this.allowProgressUpdate = true;
     this.transcript = new Transcript(this);
+    this.transcriptEN = new Transcript(this, "EN");
+    this.transcriptFR = new Transcript(this, "FR");
+
     this.lang = localStorage.getItem("lang") || DEFAULT_LANG;
 
     this.initializeElements();
@@ -70,6 +72,16 @@ export class SimpleAudioPlayer {
     this.pausedSVG = `<img id="play-icon" class="svg-icon" src="images/svg/pauseButton.svg" alt="Pause Icon">`;
     this.pausedInvertedSVG = `<img id="play-icon" class="svg-icon" src="images/svg/pauseButtonInvert.svg" alt="Pause Icon">`;
   }
+
+  updateTranscriptDisplay() {
+    const lang = localStorage.getItem("lang") || DEFAULT_LANG;
+    if (lang === "EN") {
+      this.transcriptEN.updateTranscript();
+    } else {
+      this.transcriptFR.updateTranscript();
+    }
+  }
+  
 
   toggleAriaPressed(element) {
     const isPressed = element.getAttribute("aria-pressed") === "true";

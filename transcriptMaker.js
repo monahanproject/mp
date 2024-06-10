@@ -14,6 +14,7 @@ export class Transcript {
     this.createTranscriptContainer();
   }
 
+
   createElement(type, attributes) {
     const element = document.createElement(type);
     Object.keys(attributes).forEach((attr) => (element[attr] = attributes[attr]));
@@ -25,27 +26,25 @@ export class Transcript {
       console.error("Transcript container not found.");
       return;
     }
-
+  
     this.transcriptContainer.style.opacity = "0";
     this.transcriptContainer.style.transition = "opacity 0.5s ease-in-out";
     this.transcriptContainer.style.display = "none";
-
+  
     let transcriptButton = document.getElementById("transcriptButton");
     if (!transcriptButton) {
-      this.lang = getLangState();
-
       transcriptButton = this.createElement("button", {
         type: "button",
         className: "btn",
         id: "transcriptButton",
         textContent: this.lang === "EN" ? "Show Transcript" : "Afficher la Transcription",
       });
-
+  
       const transBtnContainer = document.getElementById("transButtonContainer");
       transBtnContainer.appendChild(transcriptButton);
       transcriptButton.addEventListener("click", this.toggleTranscript.bind(this));
     }
-
+  
     if (!this.transcriptContent) {
       this.transcriptContent = this.createElement("div", { id: "transcriptContent", style: "display: none" });
       this.transcriptContainer.appendChild(this.transcriptContent);
@@ -53,6 +52,7 @@ export class Transcript {
       this.transcriptContent.innerHTML = "";
     }
   }
+  
 
   formatText(text) {
     const formatPatterns = {

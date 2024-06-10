@@ -7,20 +7,19 @@ import { outroAudioSounds, finalOutroAudioSounds } from "./outroAudio.js";
 // import { checkPlaylistRules } from "./checkRules.js";
 // import { isValidTracklist } from "./checkEachTrackForValidity.js";
 
-// Global variables to hold the curated tracklist and its total time
 export let curatedTracklist;
 export let curatedTracklistTotalTimeInSecs = 0;
+export let audioPlayer; 
 
-// Function to initialize the application
+
 export async function initializeApp() {
   await loadSongs(); // Load songs and prepare the tracklist
-  // Any additional setup...
 }
 
 // Initialize the application and handle errors
 initializeApp().catch(console.error);
 
-// Function to add outro and credit songs to the tracklist
+// Add outro and credit songs to the tracklist
 function addOutrosAndCreditsToTracklist(curatedTracklist) {
   curatedTracklist.push(...outroAudioSounds.map(prepareSongForPlayback));
   curatedTracklist.push(...gatherTheCreditSongs(curatedTracklist));
@@ -28,7 +27,7 @@ function addOutrosAndCreditsToTracklist(curatedTracklist) {
   return curatedTracklist;
 }
 
-// Function to prepare a song for playback (placeholder)
+// Prepare a song for playback (placeholder)
 export const prepareSongForPlayback = (song) => {
   return song;
 };
@@ -36,7 +35,7 @@ export const prepareSongForPlayback = (song) => {
 // Global variable to hold the list of songs
 let songs;
 
-// Function to load songs from a JSON file
+// Load songs from a JSON file
 async function loadSongs() {
   return new Promise(async (resolve, reject) => {
     try {
@@ -55,7 +54,7 @@ async function loadSongs() {
   });
 }
 
-// Function to prepare the curated tracklist
+// Prepare the curated tracklist
 function prepareCuratedTracklist(songs) {
   const allSongs = [...songs];
   const shuffledSongs = shuffleTracklist(allSongs);
@@ -66,5 +65,6 @@ function prepareCuratedTracklist(songs) {
   printEntireTracklistDebug(curatedTracklist);
   
   // Create and play the SimpleAudioPlayer with the curated tracklist
-  const makeASimpleAudioPlayerAndPlayIt = new SimpleAudioPlayer(curatedTracklist);
+  audioPlayer = new SimpleAudioPlayer(curatedTracklist); // Initialized here
+  console.log(audioPlayer);
 }
