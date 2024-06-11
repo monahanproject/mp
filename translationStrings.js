@@ -84,6 +84,15 @@ export const productionPageEN = `
     <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Jocelyn Todd's website. Link opens in a new tab" href="https://www.remembernowmove.art/">Jocelyn Todd</a></span> is a dancer, choreographer, producer and multi-disciplinary artist currently based in so-called Ottawa. Jocelyn works with the body and its interaction with the present moment, environment, political landscape, sound, space, concept and other bodies. After graduating from The School of Dance with a Diploma in Contemporary Dance Studies, Jocelyn split her time between Canada and England. In London, she delved into self-curated and intensive periods of dance study, and presented her work in the Suffolk High Tide Festival and at London's Robin Howard Theatre. She has also presented her choreographic works in Ottawa. Most recently (2020-2023): <span class="italic">shell</span>, <span class="italic">the A-team</span> and <span class="italic">Time + Light</span>. Jocelyn's film <span class="italic">Gold</span> was presented as part of Dance On Screen at the Mayfair Theatre in Fall 2021. She is deeply thankful for the support of Ottawa Dance Directive and the communities that continue to nurture her, in Ottawa and London.</p>
   </article>
 </details>
+<div class="svg-contributors svg-contributors2"></div>
+<details>
+  <summary tabindex="0">
+    <h3 class="summary-content">FLORA INGRID BAZIE</span> <span class="role"></span>
+  </summary>
+  <article>
+    <p><span class="bold">Flora Bazie</span> is a dancer, choreographer, producer and multi-disciplinary artist currently based in so-called Ottawa. Jocelyn works with the body and its interaction with the present moment, environment, political landscape, sound, space, concept and other bodies. After graduating from The School of Dance with a Diploma in Contemporary Dance Studies, Jocelyn split her time between Canada and England. In London, she delved into self-curated and intensive periods of dance study, and presented her work in the Suffolk High Tide Festival and at London's Robin Howard Theatre. She has also presented her choreographic works in Ottawa. Most recently (2020-2023): <span class="italic">shell</span>, <span class="italic">the A-team</span> and <span class="italic">Time + Light</span>. Jocelyn's film <span class="italic">Gold</span> was presented as part of Dance On Screen at the Mayfair Theatre in Fall 2021. She is deeply thankful for the support of Ottawa Dance Directive and the communities that continue to nurture her, in Ottawa and London.</p>
+  </article>
+</details>
 
 `;
 export const productionPageFR = `
@@ -169,6 +178,15 @@ export const productionPageFR = `
   </summary>
   <article>
     <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Jocelyn Todd. Le lien s\'ouvre dans un nouvel onglet" href="https://www.remembernowmove.art/">Jocelyn Todd</a></span> est une danseuse, chorégraphe, productrice et artiste multidisciplinaire qui vit actuellement à Ottawa. Jocelyn travaille avec le corps et ses interactions avec le moment présent, l'environnement, le paysage politique, le son, l'espace, le concept et les autres corps. Après avoir obtenu un diplôme d'études en danse contemporaine à The School of Dance, Jocelyn a passé son temps à faire la navette entre le Canada et l'Angleterre. À Londres, elle s'est plongée intensément dans des séances d'étude de danse qu'elle organisait elle-même et a présenté son travail au Festival Suffolk High Tide et au Robin Howard Theatre de Londres. Elle a également présenté ses chorégraphies à Ottawa. Ses œuvres récentes (2020-2023) sont <span class="italic">shell</span>, <span class="italic">the A-team</span> et <span class="italic">Time + Light</span>. Son film <span class="italic">Gold</span> a été présenté dans le cadre de Dance On Screen au Mayfair Theatre à l'automne 2021. Elle est profondément reconnaissante du soutien du Centre de danse contemporaine et des communautés qui continuent de l'encourager à Ottawa et à London.</p>
+  </article>
+</details>
+<div class="svg-contributors svg-contributors2"></div>
+<details>
+  <summary tabindex="0">
+    <h3 class="summary-content">FLORA INGRID BAZIE</span> <span class="role"></span>
+  </summary>
+  <article>
+    <p><span class="bold">Flora Bazie</span> est une ardente militante et experte en accessibilité numérique et inclusion. Elle possède un parcours impressionnant en soutenant des organisations de premier plan telles que le Musée canadien de l'histoire, la Ville d'Ottawa, Bell Canada, Visa Inc., et la famille de musées fédéraux d'Ingenium, y compris le Musée de l'agriculture et de l'alimentation du Canada, le Musée de l'aviation et de l'espace du Canada, et le Musée des sciences et de la technologie du Canada. Flora défend l'idée que la technologie doit permettre d'autonomiser les individus de toutes capacités et se consacre à garantir que les plateformes numériques soient accessibles à tous. Son engagement inébranlable à créer des expériences numériques inclusives anime son travail, où elle s'efforce continuellement de briser les barrières et de favoriser un paysage numérique plus inclusif. De plus, Flora anime une émission en direct hebdomadaire sur la DEI (Diversité, Équité, Inclusion), l'accessibilité et le handicap, chaque vendredi sur LinkedIn, Facebook et YouTube. Il suffit de rechercher #LTDiversePerspectives pour rejoindre la conversation.</p>
   </article>
 </details>
 `;
