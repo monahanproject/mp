@@ -1013,7 +1013,7 @@ export const strings = [
   {
     id: "thanksSignageFabrication",
     en: 'Thank you to <a href="https://dymech.ca/" target="_blank" rel="noopener noreferrer" aria-label="Visit Dymech website. Link opens in a new tab">Dymech</a> and <a href="https://beaconlite.ca/" target="_blank" rel="noopener noreferrer" aria-label="Visit Beacon Lite website. Link opens in a new tab">Beacon Lite</a> for fabricating the signage, and to <a href="https://www.affinityproductions.tv/" target="_blank" rel="noopener noreferrer" aria-label="Visit Affinity Production Group website. Link opens in a new tab">Affinity Production Group</a> for production support.',
-    fr: 'Merci à <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site web de Dymech. Le lien s"ouvre dans un nouvel onglet" href="https://dymech.ca/">Dymech</a> et <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site web de Beacon Lite. Le lien s"ouvre dans un nouvel onglet" href="https://beaconlite.ca/">Beacon Lite</a> pour la fabrication de la signalisation et à <a href="https://www.affinityproductions.tv/" target="_blank" rel="noopener noreferrer" aria-label="Visitez le site web de Affinity Production Group. Le lien s"ouvre dans un nouvel onglet">Affinity Production Group</a> pour le soutien à la production.',
+    fr: 'Merci à <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site web de Dymech. Le lien s\'ouvre dans un nouvel onglet" href="https://dymech.ca/">Dymech</a> et <a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site web de Beacon Lite. Le lien s\'ouvre dans un nouvel onglet" href="https://beaconlite.ca/">Beacon Lite</a> pour la fabrication de la signalisation et à <a href="https://www.affinityproductions.tv/" target="_blank" rel="noopener noreferrer" aria-label="Visitez le site web de Affinity Production Group. Le lien s\'ouvre dans un nouvel onglet">Affinity Production Group</a> pour le soutien à la production.',
   },
   {
     id: "thanksKomiku",
@@ -1040,7 +1040,7 @@ export const strings = [
 ];
 
 export const ariaStrings = [
-  { id: "toggleLanguage", en: "Switch to English", fr: "Consulter le site en français" },
+  { id: "toggleLanguage", fr: "Switch to English", en: "Consulter le site en français" },
   { id: "accessibilityNav", en: "Accessibility Settings", fr: "Paramètres d'accessibilité" },
   { id: "invertColoursBtn", en: "Invert Colors", fr: "Inverser les couleurs" },
   { id: "monochromeBtn", en: "Monochrome", fr: "Monochrome" },

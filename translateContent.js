@@ -85,7 +85,7 @@ function updateLanguageLabel() {
 
     langToggleButton.src = `${newSrc}?${new Date().getTime()}`; // Prevent caching
 
-    toggleLanguageButton.setAttribute("lang", isFrench ? "fr-CA" : "en-CA");
+    toggleLanguageButton.setAttribute("lang", isFrench ? "en-CA" : "fr-CA");
   } else {
     if (!langToggleButton) {
       console.error("Language toggle image not found");
