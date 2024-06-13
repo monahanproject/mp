@@ -1031,7 +1031,8 @@ export const strings = [
   {
     id: "cred",
     en: "MONAHAN was produced by Grimm Pictures and commissioned by the <a href='https://ottawa.ca/en/arts-heritage-and-events/public-art-and-city-ottawa-art-collection/public-art' target='_blank' rel='noopener noreferrer' aria-label='Visit City of Ottawa’s Public Art Program website. Link opens in a new tab'>City of Ottawa’s Public Art Program</a>.",
-    fr: "MONAHAN a été produit par Grimm Pictures et commandé par le <a href='https://ottawa.ca/fr/arts-patrimoine-et-evenements/art-public-et-collection-dart-de-la-ville-dottawa/art-public' target='_blank' rel='noopener noreferrer' aria-label='Visitez le site du Programme d’art public de la Ville d’Ottawa. Le lien s\'ouvre dans un nouvel onglet'>Programme d’art public de la Ville d’Ottawa</a>.",
+    fr: "MONAHAN a été produit par Grimm Pictures et commandé par le <a href=\"https://ottawa.ca/fr/arts-patrimoine-et-evenements/art-public-et-collection-dart-de-la-ville-dottawa/art-public\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Visitez le site du Programme d'art public de la Ville d’Ottawa. Le lien s'ouvre dans un nouvel onglet\">Programme d’art public de la Ville d’Ottawa</a>.",
+
   },
 
   { id: "contact", en: "Contact: publicartprogram@ottawa.ca", fr: "Pour toutes questions : programmedartpublic@ottawa.ca" },
