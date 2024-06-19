@@ -15,6 +15,15 @@ export const productionPageEN = `
 <div class="svg-contributors svg-contributors2"></div>
 <details>
   <summary tabindex="0">
+    <h3 class="summary-content">FLORA INGRID BAZIE</span> <span class="role">Digital Accessibility Expert</span>
+  </summary>
+  <article>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Flora Bazie's website. Link opens in a new tab" href="https://www.linoratech.com">Flora Bazie</span> is a passionate advocate and leading expert in digital accessibility and inclusion. She has an impressive track record supporting prominent organizations such as the Canadian Museum of History, the City of Ottawa, Bell Canada, Visa Inc, and Ingenium’s family of Federal museums, including the Canada Agriculture and Food Museum, the Canada Aviation and Space Museum, and the Canada Science and Technology Museum. Flora champions the belief that technology should empower individuals of all abilities and is dedicated to ensuring that digital platforms are accessible to everyone. Her unwavering commitment to creating inclusive digital experiences drives her work, as she continuously strives to break down barriers and foster a more inclusive digital landscape. Additionally, Flora hosts a weekly live show on DEI (Diversity, Equity, Inclusion), accessibility, and disability every Friday on LinkedIn, Facebook, and YouTube. Simply search #LTDiversePerspectives to join the conversation.</p>
+  </article>
+</details>
+<div class="svg-contributors svg-contributors2"></div>
+<details>
+  <summary tabindex="0">
     <h3 class="summary-content">JORDAN BELL</span> <span class="role">audio engineer</span>
   </summary>
   <article>
@@ -84,16 +93,6 @@ export const productionPageEN = `
     <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Jocelyn Todd's website. Link opens in a new tab" href="https://www.remembernowmove.art/">Jocelyn Todd</a></span> is a dancer, choreographer, producer and multi-disciplinary artist currently based in so-called Ottawa. Jocelyn works with the body and its interaction with the present moment, environment, political landscape, sound, space, concept and other bodies. After graduating from The School of Dance with a Diploma in Contemporary Dance Studies, Jocelyn split her time between Canada and England. In London, she delved into self-curated and intensive periods of dance study, and presented her work in the Suffolk High Tide Festival and at London's Robin Howard Theatre. She has also presented her choreographic works in Ottawa. Most recently (2020-2023): <span class="italic">shell</span>, <span class="italic">the A-team</span> and <span class="italic">Time + Light</span>. Jocelyn's film <span class="italic">Gold</span> was presented as part of Dance On Screen at the Mayfair Theatre in Fall 2021. She is deeply thankful for the support of Ottawa Dance Directive and the communities that continue to nurture her, in Ottawa and London.</p>
   </article>
 </details>
-<div class="svg-contributors svg-contributors2"></div>
-<details>
-  <summary tabindex="0">
-    <h3 class="summary-content">FLORA INGRID BAZIE</span> <span class="role">Digital Accessibility Expert</span>
-  </summary>
-  <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visit Flora Bazie's website. Link opens in a new tab" href="https://www.linoratech.com">Flora Bazie</span> is a passionate advocate and leading expert in digital accessibility and inclusion. She has an impressive track record supporting prominent organizations such as the Canadian Museum of History, the City of Ottawa, Bell Canada, Visa Inc, and Ingenium’s family of Federal museums, including the Canada Agriculture and Food Museum, the Canada Aviation and Space Museum, and the Canada Science and Technology Museum. Flora champions the belief that technology should empower individuals of all abilities and is dedicated to ensuring that digital platforms are accessible to everyone. Her unwavering commitment to creating inclusive digital experiences drives her work, as she continuously strives to break down barriers and foster a more inclusive digital landscape. Additionally, Flora hosts a weekly live show on DEI (Diversity, Equity, Inclusion), accessibility, and disability every Friday on LinkedIn, Facebook, and YouTube. Simply search #LTDiversePerspectives to join the conversation.</p>
-  </article>
-</details>
-
 `;
 export const productionPageFR = `
 <div class="headerDiv">
@@ -106,6 +105,14 @@ export const productionPageFR = `
   </summary>
   <article>
     <p>Dans ses recherches, <span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Sarah Abbott. Le lien s\'ouvre dans un nouvel onglet" href="https://sarahabbott.ca/">Sarah Abbott</a></span> cherche à comprendre et à présenter les relations sentientes et sensorielles des arbres, des plantes et des non-humains dans leur ensemble, dans des cadres comprenant l'ethnographie publique ou multi-espèce, les systèmes de connaissance autochtones, la théorie de l'émergence d'un point de vue ontologique, la science des plantes, la communication interespèces et la cinématographie ethnographique. Sarah est professeure agrégée à la Faculté de cinéma de l'Université de Regina dans les domaines de la production cinématographique, l'écologie sensible, la pratique ethnographique et le changement climatique. Elle a récemment obtenu un doctorat interdisciplinaire en sciences sociales à la Royal Roads University. Elle est titulaire d'une maîtrise en arts visuels de l'Université de Syracuse et d'un baccalauréat en études cinématographiques et en art dramatique de l'Université Queen's. Sarah a décroché une bourse d'études supérieures du Canada Vanier (2014-2017), le Prix du lieutenant-gouverneur de la Saskatchewan pour les arts et l'apprentissage (2012) ainsi que le Prix des arts et des affaires du maire de Regina pour l'innovation dans les arts (2009).</p>
+  </article>
+</details>
+<details>
+  <summary tabindex="0">
+    <h3 class="summary-content">FLORA INGRID BAZIE</span> <span class="role">Expert en accessibilité numérique</span>
+  </summary>
+  <article>
+    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Flora Bazie. Le lien s\'ouvre dans un nouvel onglet" href="https://www.linoratech.com">Flora Bazie</span> est une ardente militante et experte en accessibilité numérique et inclusion. Elle possède un parcours impressionnant en soutenant des organisations de premier plan telles que le Musée canadien de l'histoire, la Ville d'Ottawa, Bell Canada, Visa Inc., et la famille de musées fédéraux d'Ingenium, y compris le Musée de l'agriculture et de l'alimentation du Canada, le Musée de l'aviation et de l'espace du Canada, et le Musée des sciences et de la technologie du Canada. Flora défend l'idée que la technologie doit permettre d'autonomiser les individus de toutes capacités et se consacre à garantir que les plateformes numériques soient accessibles à tous. Son engagement inébranlable à créer des expériences numériques inclusives anime son travail, où elle s'efforce continuellement de briser les barrières et de favoriser un paysage numérique plus inclusif. De plus, Flora anime une émission en direct hebdomadaire sur la DEI (Diversité, Équité, Inclusion), l'accessibilité et le handicap, chaque vendredi sur LinkedIn, Facebook et YouTube. Il suffit de rechercher #LTDiversePerspectives pour rejoindre la conversation..</p>
   </article>
 </details>
 <div class="svg-contributors svg-contributors2"></div>
@@ -181,14 +188,6 @@ export const productionPageFR = `
   </article>
 </details>
 <div class="svg-contributors svg-contributors2"></div>
-<details>
-  <summary tabindex="0">
-    <h3 class="summary-content">FLORA INGRID BAZIE</span> <span class="role">Expert en accessibilité numérique</span>
-  </summary>
-  <article>
-    <p><span class="bold"><a target="_blank" rel="noopener noreferrer" aria-label="Visitez le site Web de Flora Bazie. Le lien s\'ouvre dans un nouvel onglet" href="https://www.linoratech.com">Flora Bazie</span> est une ardente militante et experte en accessibilité numérique et inclusion. Elle possède un parcours impressionnant en soutenant des organisations de premier plan telles que le Musée canadien de l'histoire, la Ville d'Ottawa, Bell Canada, Visa Inc., et la famille de musées fédéraux d'Ingenium, y compris le Musée de l'agriculture et de l'alimentation du Canada, le Musée de l'aviation et de l'espace du Canada, et le Musée des sciences et de la technologie du Canada. Flora défend l'idée que la technologie doit permettre d'autonomiser les individus de toutes capacités et se consacre à garantir que les plateformes numériques soient accessibles à tous. Son engagement inébranlable à créer des expériences numériques inclusives anime son travail, où elle s'efforce continuellement de briser les barrières et de favoriser un paysage numérique plus inclusif. De plus, Flora anime une émission en direct hebdomadaire sur la DEI (Diversité, Équité, Inclusion), l'accessibilité et le handicap, chaque vendredi sur LinkedIn, Facebook et YouTube. Il suffit de rechercher #LTDiversePerspectives pour rejoindre la conversation..</p>
-  </article>
-</details>
 `;
 
 export const contributorsPageEN = `
