@@ -1054,7 +1054,7 @@ export const ariaStrings = [
   { id: "lower-vol", en: "Lower volume", fr: "Baisser le volume" },
   { id: "raise-vol", en: "Raise volume", fr: "Augmenter le volume" },
   { id: "volume-slider", en: "Volume slider", fr: "Curseur de volume" },
-  { id: "progress-container", en: "Playback progress", fr: "Progression de la lecture" },
+  { id: "progress-bar", en: "Playback", fr: "Progression de la lecture" },
   { id: "curiousEarsTxt", en: "A Sound Piece for Curious Ears", fr: "Une pièce sonore pour oreilles curieuses" },
   { id: "music_player", en: "Audio player", fr: "Lecteur audio" },
   { id: "volume-container", en: "Volume control", fr: "Contrôle du volume" },
