@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet" />
+    <title>Monahan</title>
+    <meta name="author" content="Marie Claire LeBlanc Flanagan" />
+    <meta name="description" content="A sound walk for curious ears" />
+    <meta property="og:title" content="Monahan" />
+    <meta property="og:description" content="Wander and listen" />
+    <meta property="og:image" content="images/svg/MonohanLogoMobile.svg" />
+    <meta property="og:url" content="https://monahanwalks.ca/index.html" />
+    <meta property="og:type" content="game" />
+    <meta name="twitter:title" content="Monahan" />
+    <meta name="twitter:description" content="Wander and listen" />
+    <meta name="twitter:image" content="https://monahanwalks.ca/images/mon1.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  </head>
+  <body class="preload">
+    <div aria-live="polite" aria-atomic="true" id="statusMessage"></div>
+
+    <main id="playerPageMain">
+      <section id="landingPage" class="page" role="main">
+
+        <div id="centerLandingPageContent">
+          <div id="landingPageContainer">
+            <p class="txtBoxDiv land" id="engLand" lang="en">
+              Under Construction.
+            </p>
+            <h1 id="pageTitle" class="visually-hidden">Monahan: Art, Public Art</h1>
+            <div id="titleText"></div>
+            <p class="txtBoxDiv land" id="frLand" lang="fr">
+                En cours de construction.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="thanksPage" class="page">
+        <div class="pageInnerContent" id="logoFinalThanksDiv">
+          <div class="txtBoxDiv">
+            <p id="finalThanks"></p>
+          </div>
+          <div id="logoBox">
+            <img src="images/svg/cityOfOttawaLogo.svg" id="OttawaLogo" alt="The City of Ottawa Logo" class="decorativeImage logo" />
+            <img src="images/svg/PublicArtLogo.svg" id="PubArtLogo" alt="The City of Ottawa Public Art Logo" class="decorativeImage logo" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="scriptOutputContainer"></div>
+    </footer>
+    <script type="module" src="focus.js" defer></script>
+    <script type="module" src="settingsmenu.js" defer></script>
+  </body>
+</html>
