@@ -32,10 +32,10 @@
   --white: rgb(255, 255, 255);
   --base-font-size: 6.9vw;
   font-size: 16px; /* Default font size */
-  --focus-color-light: #234e44; /* Focus color for light background */
-  --focus-color-dark: #bfffc2;  /* Focus color for dark background */
-  --focus-color: var(--focus-color-dark); /* Default focus color */
-  --nav-focus-color: #ff9900; /* Focus color for nav buttons */
+  --focus-color-light: #234e44; 
+  --focus-color-dark: #bfffc2;  
+  --focus-color: var(--focus-color-dark); 
+  --nav-focus-color: #ff9900; 
 
 
 }
@@ -44,8 +44,6 @@
     --focus-color-dark: #bfffc2;  /* Focus color for dark background when inverted */
   }
 
-
-  /* Hide focus outlines by default */
 :focus {
   outline: none;
 }
@@ -66,8 +64,6 @@
     outline: 1px solid var(--focus-color);
     outline-offset: 0 30px;
   }
-
-
 
   .show-focus-outline nav .navIcons:focus {
     outline: 1px solid var(--nav-focus-color);
@@ -1198,8 +1194,8 @@ input[type="range"] {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Vertically center the content */
-    align-items: center; /* Horizontally center the content */
+    justify-content: center;
+    align-items: center; 
     height: 80vh;
     width: 100%;
     max-width: 1200px;
@@ -1308,9 +1304,6 @@ input[type="range"] {
 .siteName {
   font-size: 7.8vw;
   font-family: "DM Sans", sans-serif;
-  /* color: var(--lightgreen); */
-  /* color: var(--lightgreen); */
-
   text-align: center;
   font-family: "DM Sans";
   font-size: 1.90269rem;
@@ -2061,16 +2054,10 @@ article > p {
 }
 
 
-
 :active {
   outline: 2px dashed var(--lightgreen);
   outline-offset: 2px;
 }
-
-/* body:not(.show-focus-outlines) button:focus,
-body:not(.show-focus-outlines) [tabindex]:focus {
-  outline: none;
-} */
 
 #statusMessage {
   position: absolute;

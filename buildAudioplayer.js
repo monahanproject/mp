@@ -270,7 +270,6 @@ export class SimpleAudioPlayer {
     this.isPlaying = false;
     this.toggleButtonVisuals(false);
     this.toggleAriaPressed(document.getElementById("play-button"));
-    // setTimeout(() => this.playButton.focus(), 0); // Add a small delay before focusing
   }
 
   handleEnded() {

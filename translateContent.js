@@ -27,7 +27,7 @@ function toggleLanguageAndStorePref() {
     console.log("Updating transcript display and play button visuals.");
     audioPlayer.updateTranscriptDisplay();
     audioPlayer.toggleButtonVisuals(audioPlayer.isPlaying); // Ensure the play button displays the correct text
-    
+
     // Ensure the transcript is hidden initially
     audioPlayer.transcript.transcriptContainer.style.display = "none";
     audioPlayer.transcript.transcriptVisible = false;
@@ -39,9 +39,6 @@ function toggleLanguageAndStorePref() {
     console.log("audioPlayer is not defined.");
   }
 }
-
-
-
 
 function updateTextsBasedOnStoredLang() {
   updateLanguageLabel();
