@@ -954,7 +954,7 @@ li {
   left: 35%;
   transform: translate(-50%, -50%);
   color: var(--lightgreen);
-  font-family: "DM Sans";
+  font-family: "Zilla Slab", serif;
   font-size: 9vw;
   transition: transform 0.5s ease;
 }
